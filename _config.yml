@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "ZhiweiXu"
-description              : "PhD, Lecturer"
+title                    : "许志伟"
+description              : "博士, 讲师"
 repository               : "jaywayxu/jaywayxu.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -21,11 +21,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "ZhiweiXu"
+  name             : "许志伟"
   avatar           : "images/xzw.png"
-  bio              : "Lecturer, Wuhan University of Science and Technology"
-  location         : "Wuhan, China"
-  employer         : # "Wuhan University of Science and Technology"
+  bio              : "讲师, 博士, 武汉科技大学"
+  location         : "湖北武汉"
+  employer         : "计算机科学与技术学院"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=_Lkioz8AAAAJ&hl"
   email            : "xuzhiwei@wust.edu.cn"
