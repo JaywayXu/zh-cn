@@ -121,7 +121,7 @@ My research interests include:
 [[Link]](https://www.sciencedirect.com/science/article/pii/S0020025521009282) [[Download]](/PDF/CT_EMT_MOES.pdf)
 - `Zhiwei Xu (许志伟)`, Kai Zhang, Juanjuan He\*, and Xiaoming Liu. A novel membrane-inspired evolutionary framework for multi-objective multi-task optimization problems. *Information Sciences* , vol. 596, pp. 236–263, Jun. 2022. (JCR:Q1; IF：8.1)  
 [[Link]](https://www.sciencedirect.com/science/article/pii/S002002552200216X) [[Download]](/PDF/EMT-MOMIEA.pdf)
-- `Zhiwei Xu\* (许志伟)`, Jia feng Xu, Kai Zhang, Xin Xu, Juanjuan He, Ni Wu, Decision Variable Classification based Multi-objective Multifactorial Memetic Algorithm for Multi-objective Multi-task Optimization Problem. *Applied Soft Computing* , vol. 152, p. 111232, Feb. 2024. (JCR:Q1; IF：8.7)  
+- `Zhiwei Xu (许志伟)`\*, Jia feng Xu, Kai Zhang, Xin Xu, Juanjuan He, Ni Wu, Decision Variable Classification based Multi-objective Multifactorial Memetic Algorithm for Multi-objective Multi-task Optimization Problem. *Applied Soft Computing* , vol. 152, p. 111232, Feb. 2024. (JCR:Q1; IF：8.7)  
 [[Link]](https://www.sciencedirect.com/science/article/pii/S1568494624000061) [[Download]](/PDF/HMOMFMA.pdf)
 - `Zhiwei Xu (许志伟)` and Kai Zhang\*. Multiobjective multifactorial immune algorithm for multiobjective multitask optimization problems. *Applied Soft Computing* , vol. 107, p. 107399, Aug. 2021. (JCR:Q1; IF：8.7)  
 [[Link]](https://www.sciencedirect.com/science/article/pii/S1568494621003227) [[Download]](/PDF/MOMFIA.pdf)
@@ -145,3 +145,48 @@ My research interests include:
 [[Link]](https://ieeexplore.ieee.org/document/9527712) [[Download]](/PDF/ICoIAS.pdf)
 - Fan Li, Kai Zhang\*, Chaonan Shen, `Zhiwei Xu(许志伟)`. Solving Multimodal Multi-Objective Problems with Local Pareto Front using a Population Clustering Mechanism. *International Conference on Machine Learning and Soft Computing*, 2023, pp. 34-39.  
 [[Link]](https://dl.acm.org/doi/10.1145/3583788.3583793) [[Download]](/PDF/ICMLSC.pdf)
+
+## Cooperation specialist
+
+<span class='anchor' id='-Co'></span>
+
+- [Gary G. Yen](https://scholar.google.com/citations?user=6LR55aMAAAAJ), *IET Fellow*, *IEEE Fellow*, Regents Professor in the School of Electrical and Computer Engineering at Oklahoma State University (OSU).
+- [Xingyi Zhang](https://scholar.google.com/citations?user=7lmPe2kAAAAJ), *IEEE Senior Member*, Professor with the School of Computer Science and Technology, Anhui University, Hefei, China.
+- [Javier Del Ser](https://scholar.google.com/citations?user=p_wY0zUAAAAJ), *IEEE Senior Member*, Research Professor in data analytics and optimization with TECNALIA, Spain, and an Adjunct Professor at the University of the Basque Country (UPV/EHU). 
+- [Miqing Li](https://sites.google.com/view/miqing-li), *IEEE Senior Member*, Assistant Professor with the University of Birmingham, Birmingham, U.K. 
+- [Xin Xu](https://scholar.google.com/citations?hl=en&user=DtuoAWIAAAAJ), *IEEE Senior Member*, Full Professor with the School of Computer Science and Technology, Wuhan University of Science and Technology, China.
+
+## Master's degree student
+
+### 2024
+
+<span class='anchor' id='-Stut'></span>
+
+<style>
+.student-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.student {
+  margin: 10px;
+  text-align: center;
+}
+.student img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+</style>
+
+<div class="student-gallery">
+  <div class="student">
+    <img src="images/WPS.jpg" alt="Student 1">
+    <p>Pingshan Wu</p>
+  </div>
+  <div class="student">
+    <img src="images/HNP.jpg" alt="Student 2">
+    <p>Nuopiao He</p>
+  </div>
+  <!-- 根据需要添加更多学生 -->
+</div>
