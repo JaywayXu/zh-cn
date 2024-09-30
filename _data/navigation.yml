@@ -12,14 +12,17 @@ main:
   - title: "科研项目"
     url: "#-Proj"
 
-  - title: "组内成员"
-    url: "#-Stut"
-
   - title: "学术合作"
     url: "#-Co"
+
+  - title: "组内成员"
+    url: "#-Stut"
 
   - title: "课题组相册"
     url: "#-Ph"
 
   - title: "招生要求"
     url: "#-Enrollment"
+
+  - title: "联系方式"
+    url: "#-Contact"
