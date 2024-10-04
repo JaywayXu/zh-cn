@@ -7,7 +7,7 @@ main:
     url: "h/"
 
   - title: "研究成果"
-    url: "#-Pub"
+    url: "publication/"
     
   - title: "科研项目"
     url: "#-Proj"
