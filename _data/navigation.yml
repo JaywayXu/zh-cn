@@ -31,3 +31,4 @@ collections:
   pages:
     output: true
     permalink: /:path/:basename/
+baseurl: "/zh-cn"  # 你的项目根目录，如果有子路径

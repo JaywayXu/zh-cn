@@ -9,7 +9,9 @@ permalink: /h/
 <span class='anchor' id='-lwzl'></span>
 
 ---
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCYB 2021</div><img src='images/MaOES.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCYB 2021</div>
+<img src="{{ site.baseurl }}/images/MaOES.svg" alt="sym" width="100%">
+</div></div>
 <div class='paper-box-text' markdown="1">
 
 - Kai Zhang, `Zhiwei Xu(许志伟)`, Shengli Xie, and Gary G. Yen\*. Evolution Strategy-Based Many-Objective Evolutionary Algorithm Through Vector Equilibrium. *IEEE Transactions on Cybernetics* , vol. 51, no. 11, pp. 5455–5467, Nov. 2021. (JCR:Q1; IF:11.8)
@@ -20,7 +22,7 @@ permalink: /h/
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TEVC 2024</div><img src='images/CMOES.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TEVC 2024</div><img src="{{ site.baseurl }}/images/CMOES.svg" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - Kai Zhang, `Zhiwei Xu(许志伟)`, Gary G. Yen\*, Ling Zhang. Two-Stage Multi-Objective Evolution Strategy for Constrained Multi-Objective Optimization. *IEEE Transactions on Evolutionary Computation* , vol. 28, no. 1, pp. 17–31, Feb. 2024 (JCR:Q1; IF:14.3)
@@ -33,7 +35,8 @@ permalink: /h/
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2022</div><img src='images/CT-EMT-MOES.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2022</div>
+<img src="{{ site.baseurl }}/images/CT-EMT-MOES.svg" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - `Zhiwei Xu (许志伟)`, Xiaoming Liu, Kai Zhang\*, and Juanjuan He. Cultural transmission based multi-objective evolution strategy for evolutionary multitasking. *Information Sciences* , vol. 582, pp. 215–242, Jan. 2022. (JCR:Q1; IF：8.1)
@@ -45,7 +48,7 @@ permalink: /h/
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2022</div><img src='images/EMT-MOMIEA.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2022</div><img src="{{ site.baseurl }}/images/EMT-MOMIEA.svg" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - `Zhiwei Xu (许志伟)`, Kai Zhang, Juanjuan He\*, and Xiaoming Liu. A novel membrane-inspired evolutionary framework for multi-objective multi-task optimization problems. *Information Sciences* , vol. 596, pp. 236–263, Jun. 2022. (JCR:Q1; IF：8.1)  
@@ -56,7 +59,10 @@ permalink: /h/
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASOC 2021</div><img src='images/MOMFIA.svg' alt="sym" width="100%"></div></div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASOC 2021</div>
+<img src="{{ site.baseurl }}/images/MOMFIA.svg" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - `Zhiwei Xu (许志伟)` and Kai Zhang\*. Multiobjective multifactorial immune algorithm for multiobjective multitask optimization problems. *Applied Soft Computing* , vol. 107, p. 107399, Aug. 2021. (JCR:Q1; IF：8.7)
@@ -66,7 +72,9 @@ permalink: /h/
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASOC 2024</div><img src='images/HMOMFMA.svg' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASOC 2024</div>
+<img src="{{ site.baseurl }}/images/HMOMFMA.svg" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - `Zhiwei Xu (许志伟)`\*, Jia feng Xu, Kai Zhang, Xin Xu, Juanjuan He, Ni Wu, Decision Variable Classification based Multi-objective Multifactorial Memetic Algorithm for Multi-objective Multi-task Optimization Problem. *Applied Soft Computing* , vol. 152, p. 111232, Feb. 2024. (JCR:Q1; IF：8.7)
