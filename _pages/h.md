@@ -1,5 +1,5 @@
 ---
-layout: publications
+layout: default
 title: "My Page"
 permalink: /h/
 ---
