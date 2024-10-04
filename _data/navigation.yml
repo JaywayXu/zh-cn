@@ -4,7 +4,7 @@ main:
     url: "#about-me"
 
   - title: "近期成果"
-    url: "#-Hl"
+    url: "../_pages/h.md"
 
   - title: "研究成果"
     url: "#-Pub"
