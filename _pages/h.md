@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "My Page"
-permalink: /h/
+permalink: /h.html
 ---
 
 ## Highlight

@@ -4,10 +4,10 @@ main:
     url: "#about-me"
 
   - title: "近期成果"
-    url: "h/"
+    url: "h"
 
   - title: "研究成果"
-    url: "publication/"
+    url: "publication"
     
   - title: "科研项目"
     url: "#-Proj"
