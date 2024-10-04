@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "My Page"
-permalink: /publication.html
+permalink: /zh-cn/publication/
 ---
 
 ## Publication

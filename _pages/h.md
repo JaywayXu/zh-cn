@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "My Page"
-permalink: /h.html
+permalink: /zh-cn/h/
 ---
 
 ## Highlight
