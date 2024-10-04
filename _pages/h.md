@@ -1,4 +1,20 @@
-# 测试
+---
+permalink: /h.md
+title: ""
+excerpt: ""
+author_profile: true
+redirect_from: 
+  - /h/
+  - /h.html
+---
+
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
 ## Highlight
 
 <span class='anchor' id='-lwzl'></span>
