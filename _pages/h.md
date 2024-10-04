@@ -1,5 +1,5 @@
 ---
-layout: default  # 使用你定义的布局
+layout: publications  # 使用你定义的布局
 title: "研究成果"
 ---
 
