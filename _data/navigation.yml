@@ -4,10 +4,10 @@ main:
     url: "#about-me"
 
   - title: "近期成果"
-    url: "../_pages/h.md"
+    url: "/h.md"
 
   - title: "研究成果"
-    url: "../_pages/h.md"
+    url: "#-Pub"
     
   - title: "科研项目"
     url: "#-Proj"
