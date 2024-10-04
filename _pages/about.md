@@ -37,7 +37,6 @@ My research interests include:
 
 <span class='anchor' id='-Hl'></span>
 
-<!-- {% include h.md %} -->
 
 ## Publication
 
