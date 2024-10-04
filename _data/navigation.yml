@@ -26,3 +26,8 @@ main:
 
   - title: "联系方式"
     url: "#-Contact"
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/:basename/
