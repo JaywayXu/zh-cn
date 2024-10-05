@@ -1,22 +1,22 @@
 # main links links
 main:
-  - title: "个人介绍-test"
+  - title: "个人介绍"
     url: "#about-me"
 
   - title: "近期成果"
-    url: "h"
+    url: "highlight"
 
   - title: "研究成果"
     url: "publication"
     
   - title: "科研项目"
-    url: "#-Proj"
+    url: "project"
 
   - title: "学术合作"
-    url: "#-Co"
+    url: "cooperation"
 
   - title: "组内成员"
-    url: "#-Stut"
+    url: "student"
 
   - title: "课题组相册"
     url: "#-Ph"
