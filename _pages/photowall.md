@@ -18,13 +18,20 @@ permalink: /photowall
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      overflow: hidden; /* 确保图片放大时不会溢出容器 */
     }
 
     .photo-item img {
       width: 100%;
-      height: 200px; /* 设置统一的图片高度 */
+      height: 300px; /* 设置统一的图片高度 */
       object-fit: cover; /* 保证图片内容在限定大小内自适应 */
       border-radius: 8px;
+      transition: transform 0.3s ease; /* 设置平滑的过渡效果 */
+    }
+
+    /* 鼠标悬停时的放大效果 */
+    .photo-item img:hover {
+      transform: scale(1.5); /* 鼠标悬停时将图片放大1.2倍 */
     }
 
     .photo-item p {
