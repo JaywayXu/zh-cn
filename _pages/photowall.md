@@ -15,6 +15,9 @@ permalink: /photowall
 
     .photo-item {
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
     }
 
     .photo-item img {
@@ -28,10 +31,7 @@ permalink: /photowall
       margin-top: 10px;
       font-size: 14px;
       color: #333;
-      max-height: 40px; /* 限制文字区域的最大高度 */
-      overflow: hidden;
-      text-overflow: ellipsis; /* 超出部分显示省略号 */
-      white-space: nowrap;
+      text-align: center; /* 保持文字居中 */
     }
   </style>
 
@@ -45,10 +45,6 @@ permalink: /photowall
   <div class="photo-item">
     <img src="images/album/ECOLE2024.jpg" alt="ECOLE2024">
     <p>课题组参加[ECOLE2024-中国上海-华东师范大学]</p>
-  </div>
-  <div class="photo-item">
-    <img src="images/album/2024Graduation.jpg" alt="2024Graduation">
-    <p>2024年课题组毕业留念</p>
   </div>
   <div class="photo-item">
     <img src="images/album/2024Graduation.jpg" alt="2024Graduation">
