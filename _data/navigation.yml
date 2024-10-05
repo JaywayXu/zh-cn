@@ -16,7 +16,7 @@ main:
     url: "cooperation"
 
   - title: "组内成员"
-    url: "student"
+    url: "team"
 
   - title: "课题组相册"
     url: "#-Ph"

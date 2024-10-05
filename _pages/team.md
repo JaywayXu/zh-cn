@@ -1,35 +1,35 @@
 ---
 layout: default
 title: "My Page"
-permalink: /student
+permalink: /team
 ---
 
 ## 团队成员
 <span class='anchor' id='-Prof'></span>
 <style>
-.Prof-gallery {
+.prof-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.Prof {
+.prof {
   margin: 10px;
   text-align: center;
 }
-.Prof img {
+.prof img {
   width: 150px;
   height: auto;
   border-radius: 50%;
 }
 </style>
 
-<div class="Prof-gallery">
-  <div class="Prof">
-    <img src="images/ZK.jpg" alt="Prof 1">
+<div class="prof-gallery">
+  <div class="prof">
+    <img src="images/ZK.jpg" alt="prof 1">
     <p>张凯</p>
   </div>
   <div class="Prof">
-    <img src="images/HJJ.jpg" alt="Prof 2">
+    <img src="images/HJJ.jpg" alt="prof 2">
     <p>贺娟娟</p>
   </div>
   <!-- 根据需要添加更多学生 -->
