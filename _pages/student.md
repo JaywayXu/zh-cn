@@ -30,11 +30,11 @@ permalink: /student
 <div class="student-gallery">
   <div class="student">
     <img src="images/WPS.jpg" alt="Student 1">
-    <p>Pingshan Wu</p>
+    <p>吴屏珊</p>
   </div>
   <div class="student">
     <img src="images/HNP.jpg" alt="Student 2">
-    <p>Nuopiao He</p>
+    <p>何诺飘</p>
   </div>
   <!-- 根据需要添加更多学生 -->
 </div>
