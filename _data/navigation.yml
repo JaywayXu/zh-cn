@@ -22,10 +22,10 @@ main:
     url: "photowall"
 
   - title: "招生要求"
-    url: "#-Enrollment"
+    url: "enrollment"
 
   - title: "联系方式"
-    url: "#-Contact"
+    url: "contact"
 
 collections:
   pages:
