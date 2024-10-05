@@ -19,7 +19,7 @@ main:
     url: "team"
 
   - title: "课题组相册"
-    url: "#-Ph"
+    url: "photowall"
 
   - title: "招生要求"
     url: "#-Enrollment"
