@@ -4,7 +4,7 @@ title: "My Page"
 permalink: /student
 ---
 
-# 硕士研究生
+## 硕士研究生
 
 <span class='anchor' id='-Stu'></span>
 

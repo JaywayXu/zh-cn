@@ -4,7 +4,7 @@ title: "My Page"
 permalink: /highlight
 ---
 
-## Highlight
+## 亮点成果
 
 <span class='anchor' id='-lwzl'></span>
 
