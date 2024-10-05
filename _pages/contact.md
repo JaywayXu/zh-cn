@@ -8,5 +8,6 @@ permalink: /contact
 
 - 邮箱：xuzhiwei@wust.edu.cn
 - 微信公众号: 演化计算与人工智能
-![微信公众号](/zh-cn/images/Wechat.png)
+<img src="/zh-cn/images/Wechat.png" alt="微信公众号" style="width: 300px; height: auto;">
 - CSDN: [武科大许志伟](https://xuzhiwei.blog.csdn.net/)
+- BiliBili [Evacloud](https://space.bilibili.com/12100965)
