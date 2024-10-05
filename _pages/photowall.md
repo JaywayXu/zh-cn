@@ -105,7 +105,33 @@ permalink: /photowall
     <img src="images/album/ECOLE2021.jpg" alt="ECOLE2021">
     <p>课题组参加[ECOLE2021-中国武汉-武汉大学]</p>
   </div>
-
-
+  <div class="photo-item">
+    <img src="images/album/2021LGA.jpg" alt="2021LGA">
+    <p>2021年课题组团建</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/2020OR.jpg" alt="2020OR">
+    <p>2020年课题组协办第二届鄂鲁陕豫运筹学学术研讨会[中国武汉-华中科技大学-北京大学-武汉科技大学]</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/BICTA2019.jpg" alt="BICTA2019">
+    <p>课题组参加[BICTA2019-中国郑州-郑州大学]</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/2019Graduation.jpg" alt="2019Graduation">
+    <p>2019年课题组毕业留念</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/ECOLE2019.jpg" alt="ECOLE2019">
+    <p>课题组参加[ECOLE2019-中国湘潭-湘潭大学]</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/2019LGA.jpg" alt="2019LGA">
+    <p>2019年课题组团建</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/BICTA2018.jpg" alt="BICTA2018">
+    <p>课题组参加[BICTA2018-中国北京-北京邮电大学]</p>
+  </div>
 </div>
 
