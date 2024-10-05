@@ -28,7 +28,7 @@ permalink: /team.html
     <img src="images/ZK.jpg" alt="prof 1">
     <p>张凯</p>
   </div>
-  <div class="Prof">
+  <div class="prof">
     <img src="images/HJJ.jpg" alt="prof 2">
     <p>贺娟娟</p>
   </div>
