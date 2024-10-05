@@ -5,30 +5,35 @@ permalink: /photowall
 ---
 
 
-<style>
-.photo-wall {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
+  <style>
+    .photo-wall {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
 
-.photo-item {
-  text-align: center;
-}
+    .photo-item {
+      text-align: center;
+    }
 
-.photo-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
+    .photo-item img {
+      width: 100%;
+      height: 200px; /* 设置统一的图片高度 */
+      object-fit: cover; /* 保证图片内容在限定大小内自适应 */
+      border-radius: 8px;
+    }
 
-.photo-item p {
-  margin-top: 10px;
-  font-size: 16px;
-  color: #333;
-}
-</style>
+    .photo-item p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #333;
+      max-height: 40px; /* 限制文字区域的最大高度 */
+      overflow: hidden;
+      text-overflow: ellipsis; /* 超出部分显示省略号 */
+      white-space: nowrap;
+    }
+  </style>
 
 ## 课题组相册
 
