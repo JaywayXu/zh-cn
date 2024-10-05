@@ -62,10 +62,6 @@ permalink: /photowall
     <p>2023年IEEE Fellow Gary Yen教授应邀来课题组指导工作, 左为Gary教授, 右为课题组许志伟老师</p>
   </div>
   <div class="photo-item">
-    <img src="images/album/2023Gary.jpg" alt="2023Gary">
-    <p>2023年IEEE Fellow Gary Yen教授应邀来课题组指导工作, 左为Gary教授, 右为课题组许志伟老师</p>
-  </div>
-  <div class="photo-item">
     <img src="images/album/2023Graduation.jpg" alt="2023Graduation">
     <p>2023年课题组毕业留念</p>
   </div>
