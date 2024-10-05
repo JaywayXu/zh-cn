@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "My Page"
-permalink: /team
+permalink: /team.html
 ---
 
 ## 团队成员
