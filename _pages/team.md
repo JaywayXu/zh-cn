@@ -4,7 +4,7 @@ title: "My Page"
 permalink: /team.html
 ---
 
-## 团队成员
+## 团队专家
 <span class='anchor' id='-Prof'></span>
 <style>
 .prof-gallery {
