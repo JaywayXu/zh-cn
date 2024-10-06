@@ -26,7 +26,7 @@ My research interests include:
 - Google Scholar: https://scholar.google.com/citations?user=_Lkioz8AAAAJ&hl
 - Researchgate: https://www.researchgate.net/profile/Zhiwei-Xu-16
 - 微信公众号： 演化计算与人工智能
-<img src="image/Wechat.png" alt="微信公众号" style="width: 300px; height: auto;">
+<img src="images/Wechat.png" alt="微信公众号" style="width: 300px; height: auto;">
 - CSDN: 武科大许志伟 : https://xuzhiwei.blog.csdn.net/
 <br>
 - Email: xuzhiwei@wust.edu.cn
