@@ -22,7 +22,7 @@ My research interests include:
 
 ## 📎 Homepages
 - Personal Pages: https://JaywayXu.github.io (updated recently🔥)
-- 中文站点：https://JaywayXu.github.io/zh-cn/ （`如果你是国内的学者，想要更多了解我们课题组的动态`）
+- 中文站点：https://JaywayXu.github.io/zh-cn/ （`如果您是国内的学者，想要更多了解我们课题组的动态`）
 - Google Scholar: https://scholar.google.com/citations?user=_Lkioz8AAAAJ&hl
 - Researchgate: https://www.researchgate.net/profile/Zhiwei-Xu-16
 - 微信公众号： 演化计算与人工智能
