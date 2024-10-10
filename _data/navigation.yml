@@ -21,6 +21,9 @@ main:
   - title: "课题组相册"
     url: "photowall"
 
+  - title: "教学工作"
+    url: "teaching"
+
   - title: "招生要求"
     url: "enrollment"
 
