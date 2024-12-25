@@ -46,6 +46,18 @@ permalink: /photowall
 
 <div class="photo-wall">
   <div class="photo-item">
+    <img src="images/album/2024LGA.jpg" alt="2024LGA">
+    <p>2024年课题组团建</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/BICTA2024.jpg" alt="BICTA2024">
+    <p>课题组参加[BICTA2024-中国苏州-华中科技大学/苏州大学]</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/BICTA2024.jpg" alt="BICTA2024">
+    <p>课题组参加[BICTA2024-中国苏州-华中科技大学/苏州大学]</p>
+  </div>
+  <div class="photo-item">
     <img src="images/album/BICTA2024.jpg" alt="BICTA2024">
     <p>课题组参加[BICTA2024-中国苏州-华中科技大学/苏州大学]</p>
   </div>
