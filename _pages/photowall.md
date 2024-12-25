@@ -46,6 +46,10 @@ permalink: /photowall
 
 <div class="photo-wall">
   <div class="photo-item">
+    <img src="images/album/BICTA2024.jpg" alt="BICTA2024">
+    <p>课题组参加[BICTA2024-中国苏州-华中科技大学/苏州大学]</p>
+  </div>
+  <div class="photo-item">
     <img src="images/album/DOCS2024.jpg" alt="DOCS2024">
     <p>[DOCS2024-中国杭州-西湖大学/杭州师范大学]课题组许志伟老师和深圳大学刘松柏老师（右）深圳大学李庚辉老师（左）合影留念</p>
   </div>
