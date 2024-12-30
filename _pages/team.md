@@ -88,11 +88,11 @@ permalink: /team.html
 <div class="student-gallery">
   <div class="student">
     <img src="images/WPS.jpg" alt="Student 1">
-    <p>吴屏珊</p>
+    <p><a href="https://github.com/JaywayXu/PingShanWu" target="_blank">吴屏珊</a></p>
   </div>
   <div class="student">
     <img src="images/HNP.jpg" alt="Student 2">
-    <p>何诺飘</p>
+    <p><a href="https://github.com/JaywayXu/NuopiaoHe" target="_blank">何诺飘</a></p>
   </div>
   <!-- 根据需要添加更多学生 -->
 </div>
