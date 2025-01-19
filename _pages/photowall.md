@@ -46,6 +46,11 @@ permalink: /photowall
 
 <div class="photo-wall">
   <div class="photo-item">
+    <img src="images/album/2025CCF-AI.jpg" alt="2024LGA">
+    <p>课题组参加[CCF-AI演化计算学组成立大会-中国杭州-西湖大学/杭州师范大学]</p>
+  </div>
+  <div class="photo-item">
+  <div class="photo-item">
     <img src="images/album/2024LGA.jpg" alt="2024LGA">
     <p>2024年课题组团建</p>
   </div>
