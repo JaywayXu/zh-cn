@@ -66,6 +66,37 @@ permalink: /team.html
 
 <span class='anchor' id='-Stu'></span>
 
+### 2023
+
+<style>
+.student-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.student {
+  margin: 10px;
+  text-align: center;
+}
+.student img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+</style>
+
+<div class="student-gallery">
+  <div class="student">
+    <img src="images/XZY.jpg" alt="Student 1">
+    <p><a href="https://github.com/JaywayXu/ES-LSRR" target="_blank">熊喆宇</a></p>
+  </div>
+
+
+  <!-- 根据需要添加更多学生 -->
+</div>
+
+
+
 ### 2024
 
 <style>
