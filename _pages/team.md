@@ -60,6 +60,15 @@ permalink: /team.html
       <p class="description">贺娟娟，教授，师从华中科技大学潘林强教授，主持国家自然科学基金全面上项目1项，青年项目1项，湖北省自然科学基金1项，湖北省教育厅科学研究计划1项，参与国家自然科学基金4项，主持参与横向项目多项。获批湖北省科协青年晨光计划。获批湖北省“楚天学子”。获批国家留学基金委博士后项目赴加拿大西安大略大学访学2年。在 IEEE Transactions on Evolutionary Computation、IEEE Transactions on Cybernetics、Information Sciences、Applied Soft Computing、电子与信息学报等国内外重要期刊及会议上发表学术论文40余篇，授权专利2项。</p>
     </div>
   </div>
+    <div class="prof">
+    <div>
+      <img src="images/QQD.jpg" alt="QiQi Duan">
+      <p class="name"><a href="https://evolutionary-intelligence.github.io/About/" target="_blank">段琦琦</a></p>
+    </div>
+    <div class="description-container">
+      <p class="description">段琦琦目前在中国深圳南方科技大学（SUSTech）从事群智能与分布式进化计算领域的研究，具体研究方向包括面向复杂系统可扩展优化的基础模型群涌现行为以及分布式元进化策略。他是群体智能优化领域开源算法库PyPop7的核心开发者之一，该项目的相关研究成果曾在进化计算领域重要国际会议（CCF-B类会议）获得最佳论文提名，并进一步发展成为广受关注的开源软件。目前，该软件已被包括Nature在内的国际顶尖期刊论文引用。他的研究致力于通过群智能涌现和分布式元进化方法实现复杂系统的分布式优化。</p>
+    </div>
+  </div>
 </div>
 
 ## 硕士研究生
