@@ -9,6 +9,8 @@ permalink: /publication.html
 <span class='anchor' id='-Pub'></span>
 
 ---
+- `Zhiwei Xu(许志伟)` \*, 张凯, Javier Del Ser, 李密青, 徐新, 贺娟娟, 吴妮. Multi-Objective Optimization for Multimodal Multi-Objective Multi-Point Shortest Path Problem Considering Unforeseeable Road Eventualities. *IEEE Transactions on Intelligent Transportation Systems* , pp. 1–19, 2025 (JCR: Q1; IF: 7.9)  
+[[Link]](https://ieeexplore.ieee.org/document/10959009/) [[Download]](/PDF/MMOEA-CDP.pdf) [[Code]](https://github.com/JaywayXu/MMOEA-CDP)
 
 - `Zhiwei Xu (许志伟)`, 刘小明, 张凯\*, 贺娟娟. Cultural transmission based multi-objective evolution strategy for evolutionary multitasking. *Information Sciences* , vol. 582, pp. 215–242, Jan. 2022. (中科院1区期刊，Top期刊，~20%录用率，IF：8.1，CCF-B)  
 [[Link]](https://www.sciencedirect.com/science/article/pii/S0020025521009282) [[Download]](/PDF/CT_EMT_MOES.pdf)
