@@ -10,7 +10,7 @@ permalink: /highlight
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TITS 2025</div><img src='images/MMOEA-CDP.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TITS 2025</div><img src="{{ site.baseurl }}/images/MMOEA-CDP.svg" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - `Zhiwei Xu(许志伟)` \*, Kai Zhang, Javier Del Ser, Miqing Li, Xin Xu, Juanjuan He, Ni Wu.Multi-Objective Optimization for Multimodal Multi-Objective Multi-Point Shortest Path Problem Considering Unforeseeable Road Eventualities. *IEEE Transactions on Intelligent Transportation Systems* , pp. 1–19, 2025 (JCR: Q1; IF: 7.9)  
