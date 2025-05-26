@@ -46,6 +46,18 @@ permalink: /photowall
 
 <div class="photo-wall">
   <div class="photo-item">
+    <img src="images/album/CIOC2025.jpg" alt="2025CIOC">
+    <p>课题组参加2025年“树优杯”全国智能优化算法大赛获奖</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/ISOS2025.jpg" alt="2025ISOS">
+    <p>课题组参加[2025智能优化与调度会议-中国青岛-青岛科技大学]</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/CWMC2025.jpg" alt="2025CWMC">
+    <p>课题组参加[2025中国膜计算论坛-中国成都-成都信息工程大学]课题组许志伟老师（左）和成都信息工程大学张葛祥教授（中）以及东华理工大学张露萍老师（右）合影留念</p>
+  </div>
+  <div class="photo-item">
     <img src="images/album/2025CCF-AI.jpg" alt="2025CCF-AI">
     <p>课题组参加[CCF-AI演化计算学组成立大会-中国杭州-西湖大学/杭州师范大学]</p>
   </div>
