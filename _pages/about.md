@@ -19,19 +19,33 @@ redirect_from:
 
 ## ZhiweiXu(许志伟)
 
-`许志伟`博士为*IEEE*、*CCF*、*ACM*、*CAAI*、*CIE*、*CAA*、*IEEE-SMC*、*IEEE-CIS*、*ACM-SIGEVO*会员。CSDN人工智能领域优质创作者，博客专家。获得2019年硕士研究生国家奖学金与2021年，2022年博士研究生国家奖学金。近期在多任务多目标优化，约束多目标优化和高维多目标优化方面取得了一系列新进展新突破。参与国家自然科学基金两项，主持省自然科学基金青年项目一项，发表专利三项（已授权）。多项研究发表在国际顶级期刊*IEEE Transaction on Evolutionary Computation*， *IEEE Transaction on Cybernetics*， *Information Sciences*，中国科学：信息科学以及Applied Soft Computing上。获2021年与2022年武汉计算机软件工程学会年会暨学术研讨会优秀研究生，2021年CCF武汉优秀博士生学术风采展示论坛一等奖。为国际顶级期刊*IEEE Transaction on Evolutionary Computation*、*IEEE Transactions on Systems Man Cybernetics-Systems*、 *Information Sciences*， *Applied Soft Computing*等审稿人。为*IEEE Congress on Evolutionary Computation (CEC)*，*IEEE Symposium Series On Computational Intelligence （SSCI）*，*International Conference on Bio-inspired Computing: Theories and Applications （BIC-TA）* 等国际会议审稿人。担任The 19th International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA 2024)的Session Chair，2025亚洲人工智能技术大会（ACAIT2025）程序委员会成员(PC) <a href='https://scholar.google.com/citations?user=_Lkioz8AAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>
+`许志伟`博士为*IEEE*、*CCF*、*ACM*、*CAAI*、*CIE*、*CAA*、*IEEE-SMC*、*IEEE-CIS*、*ACM-SIGEVO*会员、*中国人工智能学会青年工作委员会委员*、*中国仿真学会智能优化与调度专委会委员* 。CSDN人工智能领域优质创作者，博客专家。获得2019年硕士研究生国家奖学金与2021年，2022年博士研究生国家奖学金。近期在多任务多目标优化，约束多目标优化和高维多目标优化方面取得了一系列新进展新突破。参与国家自然科学基金两项，主持省自然科学基金青年项目一项，发表专利三项（已授权）。多项研究发表在国际顶级期刊*IEEE Transaction on Evolutionary Computation*， *IEEE Transaction on Cybernetics*，*IEEE Transactions on Intelligent Transportation Systems*，*Information Sciences*，中国科学：信息科学以及Applied Soft Computing上。获2021年与2022年武汉计算机软件工程学会年会暨学术研讨会优秀研究生，2021年CCF武汉优秀博士生学术风采展示论坛一等奖。为国际顶级期刊*IEEE Transaction on Evolutionary Computation*、*IEEE Transactions on Systems Man Cybernetics-Systems*、 *Information Sciences*， *Applied Soft Computing*等审稿人。为*IEEE Congress on Evolutionary Computation (CEC)*，*IEEE Symposium Series On Computational Intelligence （SSCI）*，*International Conference on Bio-inspired Computing: Theories and Applications （BIC-TA）* 等国际会议审稿人。担任The 19th International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA 2024)的Session Chair，2025亚洲人工智能技术大会（ACAIT2025）程序委员会成员(PC) <a href='https://scholar.google.com/citations?user=_Lkioz8AAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>
 
 研究兴趣包括：
 - 演化计算
-- 多目标优化（超多目标、带约束、多任务、大规模等）
+- 多目标优化（超多目标、约束、多任务、多模态等）
 - DNA计算、编码、自组装
 - RNA二级结构预测
 - 多目标路径规划
 
 <span class='anchor' id='-Hl'></span>
 
+## Highlight
 
+<span class='anchor' id='-lwzl'></span>
 ---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TITS 2025</div><img src='images/MMOEA-CDP.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- `Zhiwei Xu(许志伟)` \*, Kai Zhang, Javier Del Ser, Miqing Li, Xin Xu, Juanjuan He, Ni Wu.Multi-Objective Optimization for Multimodal Multi-Objective Multi-Point Shortest Path Problem Considering Unforeseeable Road Eventualities. *IEEE Transactions on Intelligent Transportation Systems* , pp. 1–19, 2025 (JCR: Q1; IF: 7.9)  
+- In this paper, multi-objective multi-point shortest path planning problem is modeled as a multimodal multi-objective optimization problem with necessary points constrains. A multimodal multi-objective evolutionary algorithm using constraint dominance principle-based path comparison strategy and path similarity-based multimodal solutions selection strategy is proposed to address this problem.  
+[[Link]](https://ieeexplore.ieee.org/document/10959009/) [[Download]](/PDF/MMOEA-CDP.pdf) [[Code]](https://github.com/JaywayXu/MMOEA-CDP)
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCYB 2021</div>
 <img src="{{ site.baseurl }}/images/MaOES.svg" alt="sym" width="100%">
 </div></div>
