@@ -62,6 +62,10 @@ permalink: /photowall
     <p>课题组参加[CCF-AI演化计算学组成立大会-中国杭州-西湖大学/杭州师范大学]</p>
   </div>
   <div class="photo-item">
+    <img src="images/album/CRAIC2024.jpg" alt="CRAIC2024">
+    <p>课题组参加第二十六届中国人工机器人与人工智能大赛获得省二等奖</p>
+  </div>
+  <div class="photo-item">
     <img src="images/album/2024LGA.jpg" alt="2024LGA">
     <p>2024年课题组团建</p>
   </div>
