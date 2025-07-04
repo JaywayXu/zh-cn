@@ -21,14 +21,15 @@ main:
   - title: "课题组相册"
     url: "photowall"
 
-  - title: "教学工作"
-    url: "teaching"
+  - title: "团队荣誉"
+    url: "Honor"
 
   - title: "招生要求"
     url: "enrollment"
 
   - title: "联系方式"
     url: "contact"
+
 
 collections:
   pages:

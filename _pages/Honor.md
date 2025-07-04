@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "My Page"
-permalink: /teaching
+permalink: /Honor
 ---
 
 - 计算智能导论

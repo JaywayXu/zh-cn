@@ -21,7 +21,7 @@ redirect_from:
 
 `许志伟`博士为*IEEE*、*CCF*、*ACM*、*CAAI*、*CIE*、*CAA*、*IEEE-SMC*、*IEEE-CIS*、*ACM-SIGEVO*会员、*中国人工智能学会青年工作委员会委员*、*中国仿真学会智能优化与调度专委会委员* 。CSDN人工智能领域优质创作者，博客专家。获得2019年硕士研究生国家奖学金与2021年，2022年博士研究生国家奖学金。近期在多任务多目标优化，约束多目标优化和高维多目标优化方面取得了一系列新进展新突破。参与国家自然科学基金两项，主持省自然科学基金青年项目一项，发表专利三项（已授权）。多项研究发表在国际顶级期刊*IEEE Transaction on Evolutionary Computation*， *IEEE Transaction on Cybernetics*，*IEEE Transactions on Intelligent Transportation Systems*，*Information Sciences*，*中国科学：信息科学* 以及 *Applied Soft Computing* 上。获2021年与2022年武汉计算机软件工程学会年会暨学术研讨会优秀研究生，2021年CCF武汉优秀博士生学术风采展示论坛一等奖。
 
-其为计算机和人工智能领域各大顶级期刊的审稿人包括但不限于： **IEEE Transactions on Evolutionary Computation**, **IEEE Transactions on Systems, Man, and Cybernetics: Systems**, **Information Sciences**, **Applied Soft Computing**, **Robotics and Computer-Integrated Manufacturing**, **Neural Computing and Applications**, **Engineering Applications of Artificial Intelligence (EAAI)**, **Expert Systems with Applications (ESWA)**, and **Journal of Membrane Computing**.
+其为计算机和人工智能领域各大顶级期刊的审稿人包括但不限于： **IEEE Transactions on Evolutionary Computation**, **IEEE Transactions on Systems, Man, and Cybernetics: Systems**, **Information Sciences**, **Applied Soft Computing**, **Robotics and Computer-Integrated Manufacturing**, **Neural Computing and Applications**, **Engineering Applications of Artificial Intelligence **, **Expert Systems with Applications **, and **Journal of Membrane Computing**.
 
 其为以下国际会议的审稿人，包括但不限于： **IEEE Congress on Evolutionary Computation (IEEE CEC)**, **IEEE Symposium Series on Computational Intelligence (SSCI)**, **IEEE Conference on Artificial Intelligence (IEEE CAI)** and the **International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA)**.
 
