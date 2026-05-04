@@ -12,4 +12,3 @@ permalink: /contact
 <img src="/zh-cn/images/Wechat.png" alt="微信公众号" style="width: 300px; height: auto;">
 <br>
 - CSDN: [武科大许志伟](https://xuzhiwei.blog.csdn.net/)
-- BiliBili: [Evacloud](https://space.bilibili.com/12100965)

@@ -4,27 +4,29 @@
 
 ## ZhiweiXu(许志伟)
 
-I am currently a lecturer at the School of Computer Science and Technology, Wuhan University of Science and Technology, China. I am a member of the **Institute of Electrical and Electronics Engineers (IEEE)**, **China Computer Federation (CCF)**, **Association for Computing Machinery (ACM)**, **Chinese Association for Artificial Intelligence (CAAI)**, **Chinese Association of Automation (CAA)**, **Chinese Institute of Electronics (CIE)**  **IEEE Systems, Man, and Cybernetics Society (IEEE-SMC)**, **IEEE Computational Intelligence Society (IEEE-CIS)**, and **ACM Special Interest Group on Genetic and Evolutionary Computation (ACM-SIGEVO)**. Recognized as a high-quality content creator and blogging expert in the field of artificial intelligence on CSDN, I have actively contributed to the academic community.
+I am now a lecturer at the School of Computer Science and Technology and the Hubei Provincial Key Laboratory of Intelligent Information Processing and Real-time Industrial Systems, Wuhan University of Science and Technology, Wuhan, China. I have received the B.S. degree in information security from the Wuhan University of Science and Technology, Wuhan, China, in 2017, and the Ph.D. degree in control science and engineering from Wuhan University of Science and Technology, Wuhan, China, in 2022. I was supervised by Professor Kai Zhang, who is the Dean of the Graduate School of Wuhan University of Science and Technology, the Dean of the School of Computer Science and Technology at Wuhan University of Science and Technology, the Director of the Hubei Provincial Key Laboratory of Intelligent Information Processing and Real-time Industrial Systems in China. From March to September 2025, I visited the School of Artificial Intelligence and Automation at Huazhong University of Science and Technology as a visiting scholar, under the guidance of Professor Linqiang Pan.
 
-I was awarded the National Scholarship for Master's students in 2019 and the National Scholarship for Doctoral students in 2021 and 2022 by the Ministry of Education of China. Recently, I have achieved significant advancements and breakthroughs in multi-task multi-objective optimization, constrained multi-objective optimization, and high-dimensional multi-objective optimization.
+I am a member of the **Institute of Electrical and Electronics Engineers (IEEE)**, **China Computer Federation (CCF)**, **Association for Computing Machinery (ACM)**, **Chinese Association for Artificial Intelligence (CAAI)**, **Chinese Association of Automation (CAA)**, **Chinese Institute of Electronics (CIE)**, **IEEE Systems, Man, and Cybernetics Society (IEEE-SMC)**, **IEEE Computational Intelligence Society (IEEE-CIS)**, **Technical Committee on Intelligent Simulation Optimization and Scheduling, China Simulation Federation (CSF)** , and **ACM Special Interest Group on Genetic and Evolutionary Computation (ACM-SIGEVO)**. Recognized as a high-quality content creator and blogging expert in the field of artificial intelligence on CSDN, I have actively contributed to the academic community.
 
-I have participated in two projects funded by the National Natural Science Foundation of China and led a youth project funded by the Provincial Natural Science Foundation. I hold three granted patents. My research findings have been published in top-tier international journals such as **IEEE Transactions on Evolutionary Computation**, **IEEE Transactions on Cybernetics**, **** , **Information Sciences**, **Science China: Information Sciences**, and **Applied Soft Computing**.
+I was awarded the National Scholarship for Master's students in 2019 and the National Scholarship for Doctoral students in 2021 and 2022 by the Ministry of Education of China. Recently, I have achieved significant advancements and breakthroughs in multi-task multi-objective optimization, constrained multi-objective optimization, and many-objective optimization.
 
-I was recognized as an Excellent Graduate Student at the Annual Meeting and Academic Seminar of the Wuhan Computer Software Engineering Society in both 2021 and 2022, and won the First Prize at the 2021 CCF Wuhan Excellent Doctoral Student Academic Showcase Forum.
+I have participated in two projects funded by the National Natural Science Foundation of China and led a youth project funded by the Provincial Natural Science Foundation. My research findings have been published in top-tier international journals such as **IEEE Transactions on Evolutionary Computation**, **IEEE Transactions on Cybernetics**, **IEEE Transactions on Intelligent Transportation Systems**, **Information Sciences**, **Science China: Information Sciences**, and **Applied Soft Computing**.
 
-I serve as a reviewer for leading international journals including **IEEE Transactions on Evolutionary Computation**, **IEEE Transactions on Systems, Man, and Cybernetics: Systems**, **Information Sciences**, **Applied Soft Computing**, **Robotics and Computer-Integrated Manufacturing**, **Neural Computing and Applications**, **Engineering Applications of Artificial Intelligence (EAAI)**, **Expert Systems with Applications (ESWA)**, and **Journal of Membrane Computing**.
+I was recognized as an Excellent Graduate Student at the Annual Meeting and Academic Seminar of the Wuhan Computer Software Engineering Society in both 2021 and 2022, and won the First Prize at the 2021 CCF Wuhan Excellent Doctoral Student Academic Showcase Forum. 
+
+I serve as a reviewer for leading international journals including **IEEE Transactions on Evolutionary Computation**, **IEEE Transactions on Systems, Man, and Cybernetics: Systems**, **IEEE Transactions on Cybernetics**, **Information Sciences**, **Applied Soft Computing**, **Robotics and Computer-Integrated Manufacturing**, **Neural Computing and Applications**, **Engineering Applications of Artificial Intelligence**, **Expert Systems with Applications**, and **Journal of Membrane Computing**.
 
 Additionally, I am a reviewer for international conferences such as the **IEEE Congress on Evolutionary Computation (IEEE CEC)**, **IEEE Symposium Series on Computational Intelligence (SSCI)**, **IEEE Conference on Artificial Intelligence (IEEE CAI)** and the **International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA)**.
 
-I have Served as a Session Chair at the **19th International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA 2024)**, Program Committee Member for the **2025 Asia Conference on Artificial Intelligence Technology (ACAIT2025)** and **The International Conference on Machine Intelligence and Nature-inspired Computing (MIND 2025)**.
+I have Served as a Session Chair at the **19th International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA 2024)**, **20th International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA 2025)**, Program Committee Member for the **2025 Asia Conference on Artificial Intelligence Technology (ACAIT2025)** and **The International Conference on Machine Intelligence and Nature-inspired Computing (MIND 2025)**.
 
 My research interests include:
 
+- Neural Combinatorial Optimization
+- Scheduling and Vehicle Routing Planning
 - Evolutionary Computation
-- Multi-objective Optimization (many-objective, constrained, multi-task, large-scale, etc.)
+- Multi-objective Optimization (Many-objective, Constrained, Multi-task, Multimodal, etc.)
 - DNA Computing, Encoding, and Self-Assembly
-- RNA Structure Prediction
-- Multi-objective Path Planning
 
 ## 📎 Homepages
 - Personal Pages: https://JaywayXu.github.io (updated recently🔥)
@@ -41,6 +43,14 @@ My research interests include:
 My full paper list is shown at [my personal homepage](https://JaywayXu.github.io/) or [中文主站](https://JaywayXu.github.io/zh-cn/).
 
 ---
+
+## 💻 Selected Research Papers
+My full paper list is shown at [my personal homepage](https://JaywayXu.github.io/) or [中文主站](https://JaywayXu.github.io/zh-cn/).
+
+---
+- `Zhiwei Xu(许志伟)` \*, Kai Zhang, Javier Del Ser, Miqing Li, Xin Xu, Juanjuan He, Ni Wu.Multi-Objective Optimization for Multimodal Multi-Objective Multi-Point Shortest Path Problem Considering Unforeseeable Road Eventualities. *IEEE Transactions on Intelligent Transportation Systems* , vol. 26, no. 6, pp. 8622-8640, June 2025. (JCR: Q1; IF: 7.9)  
+[[Link]](https://ieeexplore.ieee.org/document/10959009/) [[Download]](https://jaywayxu.github.io/PDF/MMOEA-CDP.pdf) [[Code]](https://github.com/JaywayXu/MMOEA-CDP)
+
 - Kai Zhang, `Zhiwei Xu(许志伟)`, Shengli Xie, and Gary G. Yen\*. Evolution Strategy-Based Many-Objective Evolutionary Algorithm Through Vector Equilibrium. *IEEE Transactions on Cybernetics* , vol. 51, no. 11, pp. 5455–5467, Nov. 2021. (JCR:Q1; IF:11.8)  
 [[Link]](https://ieeexplore.ieee.org/document/8955947/) [[Download]](https://jaywayxu.github.io/PDF/MaOES.pdf)[[Code]](https://github.com/MaOEA/MaOES)
 
