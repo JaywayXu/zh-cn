@@ -61,7 +61,7 @@ permalink: /team.html
     </div>
   </div>
 
-    <div class="prof">
+<div class="prof">
     <div>
       <img src="images/QQD.jpg" alt="QiQi Duan">
       <p class="name"><a href="https://evolutionary-intelligence.github.io/About/" target="_blank">段琦琦</a></p>
@@ -71,7 +71,7 @@ permalink: /team.html
     </div>
   </div>
 </div>
-  </div>
+
 
  <div class="prof">
     <div>
