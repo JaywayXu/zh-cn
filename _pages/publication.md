@@ -25,7 +25,7 @@ permalink: /publication.html
 [[Link]](https://ieeexplore.ieee.org/document/9869698) [[Download]](/PDF/CMOES.pdf)[[Code]](https://github.com/MaOEA/CMOES)
 - 贺娟娟, 杨倩, `许志伟`, 张凯, 张兴义, 葛明峰\*. 基于全局密度更新策略的两阶段多模态多目标进化算法. *中国科学：信息科学*, 2024. (CCF-A)  
 [[Link]](https://www.sciengine.com/SSI/doi/10.1360/SSI-2022-0294) [[Download]](/PDF/SSI2024.pdf)
-- 张凯, 申超楠, Gary G. Yen\*, `Zhiwei Xu(许志伟)` , and 贺娟娟. Two-Stage Double Niched Evolution Strategy for Multimodal Multiobjective Optimization. *IEEE Transactions on Evolutionary Computation* , vol. 25, no. 4, pp. 754–768, Aug. 2021. (排序第四，*IEEE Transactions on Evolutionary Computation*，中科院1区期刊，Top期刊，IF:14.3，CCF-B)  
+- 张凯, 申超楠, Gary G. Yen\*, `Zhiwei Xu(许志伟)`, 贺娟娟. Two-Stage Double Niched Evolution Strategy for Multimodal Multiobjective Optimization. *IEEE Transactions on Evolutionary Computation* , vol. 25, no. 4, pp. 754–768, Aug. 2021. (排序第四，*IEEE Transactions on Evolutionary Computation*，中科院1区期刊，Top期刊，IF:14.3，CCF-B)  
 [[Link]](https://ieeexplore.ieee.org/document/9372341) [[Download]](/PDF/DN-MMOES.pdf)[[Code]](https://github.com/MaOEA/DN-MMOES)
 - 张凯, 陈彬, `Zhiwei Xu(许志伟)`\*. 基于多目标进化策略算法的DNA核酸编码设计. *电子与信息学报* , 2020, 42(6): 1365-1373. (排序第三通讯作者，电子与信息学报)  
 [[Link]](https://jeit.ac.cn/cn/article/doi/10.11999/JEIT190869) [[Download]](/PDF/MOES_DNA.pdf)
