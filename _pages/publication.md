@@ -11,7 +11,6 @@ permalink: /publication.html
 ---
 - `Zhiwei Xu(许志伟)` \*, 张凯, Javier Del Ser, 李密青, 徐新, 贺娟娟, 吴妮. Multi-Objective Optimization for Multimodal Multi-Objective Multi-Point Shortest Path Problem Considering Unforeseeable Road Eventualities. *IEEE Transactions on Intelligent Transportation Systems* , pp. 1–19, 2025 (JCR: Q1; IF: 7.9)  
 [[Link]](https://ieeexplore.ieee.org/document/10959009/) [[Download]](/PDF/MMOEA-CDP.pdf) [[Code]](https://github.com/JaywayXu/MMOEA-CDP)
-
 - `Zhiwei Xu (许志伟)`, 刘小明, 张凯\*, 贺娟娟. Cultural transmission based multi-objective evolution strategy for evolutionary multitasking. *Information Sciences* , vol. 582, pp. 215–242, Jan. 2022. (中科院1区期刊，Top期刊，~20%录用率，IF：8.1，CCF-B)  
 [[Link]](https://www.sciencedirect.com/science/article/pii/S0020025521009282) [[Download]](/PDF/CT_EMT_MOES.pdf)
 - `Zhiwei Xu (许志伟)`, 张凯, 贺娟娟\*, 刘小明. A novel membrane-inspired evolutionary framework for multi-objective multi-task optimization problems. *Information Sciences* , vol. 596, pp. 236–263, Jun. 2022. (中科院1区期刊，Top期刊，~20%录用率，IF：8.1，CCF-B)  
@@ -32,6 +31,12 @@ permalink: /publication.html
 [[Link]](https://jeit.ac.cn/cn/article/doi/10.11999/JEIT190869) [[Download]](/PDF/MOES_DNA.pdf)
 - `Zhiwei Xu(许志伟)`, 张凯\*, 徐新, 贺娟娟. A Fireworks Algorithm Based on Transfer Spark for Evolutionary Multitasking. *Frontiers in Neurorobotics* , vol. 13, p. 109, Jan. 2020.  
 [[Link]](https://www.frontiersin.org/articles/10.3389/fnbot.2019.00109) [[Download]](/PDF/MTO-FWA.pdf)
+- `Zhiwei Xu(许志伟)`\*, 吴屏姗, 何诺飘, 金淑婷, 贺娟娟, 张凯. A Knee Solution-Based Membrane-Inspired Evolutionary Algorithm for Multi-objective Multi-task Optimization. Bio-Inspired Computing: Theories and Applications (BICTA-2024), Linqiang Pan, Ting Wu, and Jianqing Lin, Eds., Singapore: Springer Nature, 2025, pp. 165–176.  
+[[Link]](https://link.springer.com/chapter/10.1007/978-981-96-9582-9_12) [[Download]](/PDF/BICTA_2024.pdf)
+- Shuting. Jin, Huaze Long, Anqi Huang, Jianming Wang, Xuan Yu, `Zhiwei Xu(许志伟)`, Junlin Xu. Accurate prediction of synergistic drug combination using a multi-source information fusion framework. *BMC Biology* , vol. 23, no. 1, p. 200, Jul. 2025.  
+[[Link]](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-025-02302-y) [[Download]](/PDF/BMC2025-MultiSyn.pdf)
+- 龙华泽, 金淑婷, 许俊林, `Zhiwei Xu(许志伟)`, A Conformation Enhanced Graph Attention Framework for Predicting Synergistic Drug Combinations. *2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)* , Dec. 2025, pp. 1104–1111.  
+[[Link]](https://ieeexplore.ieee.org/abstract/document/11357183) [[Download]](/PDF/BIBM25ConGraSyn.pdf)
 - `Zhiwei Xu(许志伟)`, 刘小明, 张凯\*. Mechanical Properties Prediction for Hot Rolled Alloy Steel Using Convolutional Neural Network. *IEEE Access* , vol. 7, pp. 47068–47078, 2019.  
 [[Link]](https://ieeexplore.ieee.org/document/8682144) [[Download]](/PDF/ACCESS.pdf)
 - 赵浩志, `Zhiwei Xu(许志伟)`\*, 张凯\*. Reference Point Based Multi-objective Evolutionary Algorithm for DNA Sequence Design. *International Conference on Bio-Inspired Computing: Theories and Applications*, 2019, pp. 178–188.  
