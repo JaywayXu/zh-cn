@@ -46,8 +46,12 @@ permalink: /ResearchWorkAlbum
 
 <div class="photo-wall">
   <div class="photo-item">
-    <img src="images/album/ACAIT2025.jpg" alt="2025ACAIT">
-    <p>课题组参加[2025年中国人工智能学会青工委年会-中国鄂尔多斯-内蒙古师范大学]</p>
+    <img src="images/album/2025Jiujiang.jpg" alt="2025Jiujiang">
+    <p>课题组许志伟老师访问九江学院计算机与大数据科学学院，并作多解多目标最短路径规划专题报告[中国九江，九江学院]，课题组许志伟老师（前排中）和九江学院计算机与大数据科学学院彭虎院长（前排右），九江学院董小刚老师（前排左）合影留念</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/2025Ishibuchi.jpg" alt="2025Ishibuchi">
+    <p>IEEE Fellow Ishibuchi 教授和彭丽敏博士应邀访问本课题组并做专题报告</p>
   </div>
   <div class="photo-item">
     <img src="images/album/ACAIT2025.jpg" alt="2025ACAIT">
