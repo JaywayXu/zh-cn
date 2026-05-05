@@ -5,42 +5,121 @@ permalink: /TeamBuildingAlbum
 ---
 
 
-  <style>
+<style>
+  .photo-wall {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 14px;
+    padding: 20px 0;
+    width: 100%;
+  }
+
+  .photo-item {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .photo-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.14);
+  }
+
+  .photo-item img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    border-radius: 0;
+    transition: transform 0.35s ease;
+  }
+
+  .photo-item:hover img {
+    transform: scale(1.06);
+  }
+
+  .photo-item p {
+    margin: 0;
+    padding: 8px 9px 10px;
+    font-size: 12px;
+    line-height: 1.55;
+    color: #333;
+    text-align: justify;
+    background: #fff;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .photo-item:hover p {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+  }
+
+  /* 超宽屏：如果页面容器足够宽，则每行 8 张 */
+  @media (min-width: 1600px) {
     .photo-wall {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 20px;
-    }
-
-    .photo-item {
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      overflow: hidden; /* 确保图片放大时不会溢出容器 */
-    }
-
-    .photo-item img {
-      width: 100%;
-      height: 300px; /* 设置统一的图片高度 */
-      object-fit: cover; /* 保证图片内容在限定大小内自适应 */
-      border-radius: 8px;
-      transition: transform 0.3s ease; /* 设置平滑的过渡效果 */
-    }
-
-    /* 鼠标悬停时的放大效果 */
-    .photo-item img:hover {
-      transform: scale(1.5); /* 鼠标悬停时将图片放大1.2倍 */
+      grid-template-columns: repeat(8, minmax(0, 1fr));
+      gap: 12px;
     }
 
     .photo-item p {
-      margin-top: 10px;
-      font-size: 14px;
-      color: #333;
-      text-align: center; /* 保持文字居中 */
+      font-size: 11.5px;
+      line-height: 1.5;
     }
-  </style>
+  }
+
+  /* 普通笔记本或较窄页面：每行 4 张 */
+  @media (max-width: 1200px) {
+    .photo-wall {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+  }
+
+  /* 平板：每行 3 张 */
+  @media (max-width: 900px) {
+    .photo-wall {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .photo-item p {
+      font-size: 11.5px;
+      line-height: 1.5;
+    }
+  }
+
+  /* 手机横屏或窄屏：每行 2 张 */
+  @media (max-width: 600px) {
+    .photo-wall {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      padding: 12px 0;
+    }
+
+    .photo-item p {
+      padding: 7px 8px 9px;
+      font-size: 11px;
+      line-height: 1.45;
+      -webkit-line-clamp: 3;
+    }
+  }
+
+  /* 极窄屏：每行 1 张 */
+  @media (max-width: 380px) {
+    .photo-wall {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
 
 ## 课题组相册
 
