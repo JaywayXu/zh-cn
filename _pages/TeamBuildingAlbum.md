@@ -153,6 +153,15 @@ permalink: /TeamBuildingAlbum
     align-items: center;
   }
 
+  .photo-lightbox-image-wrap {
+    position: relative;
+    min-width: min(420px, 80vw);
+    min-height: min(280px, 52vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .photo-lightbox img {
     max-width: 96vw;
     max-height: 82vh;
@@ -161,6 +170,7 @@ permalink: /TeamBuildingAlbum
     box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55);
     animation: lightboxZoomIn 0.28s ease;
     cursor: default;
+    background: rgba(255, 255, 255, 0.04);
   }
 
   .photo-lightbox-caption {
@@ -171,6 +181,34 @@ permalink: /TeamBuildingAlbum
     font-size: 15px;
     line-height: 1.65;
     text-align: center;
+  }
+
+  .photo-lightbox-loader {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    pointer-events: none;
+  }
+
+  .photo-lightbox.is-loading .photo-lightbox-loader {
+    display: flex;
+  }
+
+  .photo-lightbox-spinner {
+    width: 34px;
+    height: 34px;
+    border: 3px solid rgba(255, 255, 255, 0.28);
+    border-top-color: rgba(255, 255, 255, 0.92);
+    border-radius: 50%;
+    animation: photoLightboxSpin 0.9s linear infinite;
   }
 
   .photo-lightbox-close {
@@ -187,7 +225,7 @@ permalink: /TeamBuildingAlbum
     line-height: 42px;
     cursor: pointer;
     z-index: 100000;
-    transition: background 0.2s ease, transform 0.2s ease;
+    transition: background 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
   }
 
   .photo-lightbox-close:hover,
@@ -210,7 +248,7 @@ permalink: /TeamBuildingAlbum
     font-size: 30px;
     cursor: pointer;
     z-index: 100000;
-    transition: background 0.2s ease, transform 0.2s ease;
+    transition: background 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
   }
 
   .photo-lightbox-nav:hover,
@@ -220,12 +258,21 @@ permalink: /TeamBuildingAlbum
     outline: none;
   }
 
+  .photo-lightbox-nav:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+  }
+
   .photo-lightbox-prev {
     left: 28px;
   }
 
   .photo-lightbox-next {
     right: 28px;
+  }
+
+  .photo-lightbox-error {
+    color: #ffd7d7;
   }
 
   @keyframes lightboxZoomIn {
@@ -240,6 +287,16 @@ permalink: /TeamBuildingAlbum
     }
   }
 
+  @keyframes photoLightboxSpin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
   body.photo-lightbox-open {
     overflow: hidden;
   }
@@ -247,6 +304,11 @@ permalink: /TeamBuildingAlbum
   @media (max-width: 768px) {
     .photo-lightbox {
       padding: 18px;
+    }
+
+    .photo-lightbox-image-wrap {
+      min-width: min(300px, 82vw);
+      min-height: min(220px, 45vh);
     }
 
     .photo-lightbox img {
@@ -288,7 +350,8 @@ permalink: /TeamBuildingAlbum
     .photo-item img,
     .photo-lightbox img,
     .photo-lightbox-close,
-    .photo-lightbox-nav {
+    .photo-lightbox-nav,
+    .photo-lightbox-spinner {
       transition: none;
       animation: none;
     }
@@ -301,72 +364,72 @@ permalink: /TeamBuildingAlbum
 
 <div class="photo-wall">
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2026LGA.jpg" alt="2026LGA">
+    <img src="images/TeamBuildingAlbum/2026LGA.jpg" alt="2026LGA" loading="lazy" decoding="async">
     <p>2026年课题组团建</p>
   </div>
 
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2025LGA.jpg" alt="2025LGA">
+    <img src="images/TeamBuildingAlbum/2025LGA.jpg" alt="2025LGA" loading="lazy" decoding="async">
     <p>2025年课题组团建</p>
   </div>
 
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2024LGA.jpg" alt="2024LGA">
+    <img src="images/TeamBuildingAlbum/2024LGA.jpg" alt="2024LGA" loading="lazy" decoding="async">
     <p>2024年课题组团建</p>
   </div>
 
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2024Graduation.jpg" alt="2024Graduation">
+    <img src="images/TeamBuildingAlbum/2024Graduation.jpg" alt="2024Graduation" loading="lazy" decoding="async">
     <p>2024年课题组毕业留念</p>
   </div>
 
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2024Reunion1.jpg" alt="2024Reunion1">
+    <img src="images/TeamBuildingAlbum/2024Reunion1.jpg" alt="2024Reunion1" loading="lazy" decoding="async">
     <p>2024年1718级课题组师生聚会</p>
   </div>
 
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2024Reunion2.jpg" alt="2024Reunion2">
+    <img src="images/TeamBuildingAlbum/2024Reunion2.jpg" alt="2024Reunion2" loading="lazy" decoding="async">
     <p>2024年1718级课题组同学会</p>
   </div>
 
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2023Graduation.jpg" alt="2023Graduation">
+    <img src="images/TeamBuildingAlbum/2023Graduation.jpg" alt="2023Graduation" loading="lazy" decoding="async">
     <p>2023年课题组毕业留念</p>
   </div>
 
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2023LGA.jpg" alt="2023LGA">
+    <img src="images/TeamBuildingAlbum/2023LGA.jpg" alt="2023LGA" loading="lazy" decoding="async">
     <p>2023年课题组团建</p>
   </div>
 
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2022LGA.jpg" alt="2022LGA">
+    <img src="images/TeamBuildingAlbum/2022LGA.jpg" alt="2022LGA" loading="lazy" decoding="async">
     <p>2022年课题组团建</p>
   </div>
 
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2022Graduation.jpg" alt="2022Graduation">
+    <img src="images/TeamBuildingAlbum/2022Graduation.jpg" alt="2022Graduation" loading="lazy" decoding="async">
     <p>2022年课题组毕业留念</p>
   </div>
 
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2021Graduation.jpg" alt="2021Graduation">
+    <img src="images/TeamBuildingAlbum/2021Graduation.jpg" alt="2021Graduation" loading="lazy" decoding="async">
     <p>2021年课题组毕业留念</p>
   </div>
 
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2021LGA.jpg" alt="2021LGA">
+    <img src="images/TeamBuildingAlbum/2021LGA.jpg" alt="2021LGA" loading="lazy" decoding="async">
     <p>2021年课题组团建</p>
   </div>
 
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2019Graduation.jpg" alt="2019Graduation">
+    <img src="images/TeamBuildingAlbum/2019Graduation.jpg" alt="2019Graduation" loading="lazy" decoding="async">
     <p>2019年课题组毕业留念</p>
   </div>
 
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2019LGA.jpg" alt="2019LGA">
+    <img src="images/TeamBuildingAlbum/2019LGA.jpg" alt="2019LGA" loading="lazy" decoding="async">
     <p>2019年课题组团建</p>
   </div>
 </div>
@@ -383,7 +446,13 @@ permalink: /TeamBuildingAlbum
   </button>
 
   <div class="photo-lightbox-content">
-    <img id="photoLightboxImage" src="" alt="">
+    <div class="photo-lightbox-image-wrap">
+      <img id="photoLightboxImage" src="" alt="">
+      <div class="photo-lightbox-loader" id="photoLightboxLoader">
+        <div class="photo-lightbox-spinner"></div>
+        <div id="photoLightboxLoadingText">图片加载中，请稍候...</div>
+      </div>
+    </div>
     <div class="photo-lightbox-caption" id="photoLightboxCaption"></div>
   </div>
 
@@ -401,12 +470,12 @@ permalink: /TeamBuildingAlbum
     const lightbox = document.getElementById("photoLightbox");
     const lightboxImage = document.getElementById("photoLightboxImage");
     const lightboxCaption = document.getElementById("photoLightboxCaption");
+    const loadingText = document.getElementById("photoLightboxLoadingText");
     const closeBtn = document.getElementById("photoLightboxClose");
     const prevBtn = document.getElementById("photoLightboxPrev");
     const nextBtn = document.getElementById("photoLightboxNext");
 
-    if (!photoWall || !lightbox || !lightboxImage || !lightboxCaption || !closeBtn || !prevBtn || !nextBtn) {
-      console.warn("Photo lightbox initialization failed: required DOM elements are missing.");
+    if (!photoWall || !lightbox || !lightboxImage || !lightboxCaption || !loadingText || !closeBtn || !prevBtn || !nextBtn) {
       return;
     }
 
@@ -414,8 +483,17 @@ permalink: /TeamBuildingAlbum
     if (images.length === 0) return;
 
     let currentIndex = 0;
+    let targetIndex = 0;
     let touchStartX = 0;
     let touchEndX = 0;
+    let isLoading = false;
+    let requestToken = 0;
+
+    const imageCache = {};
+
+    function getImageSrc(img) {
+      return img.getAttribute("data-full") || img.currentSrc || img.src;
+    }
 
     function getCaption(img) {
       const item = img.closest(".photo-item");
@@ -423,25 +501,124 @@ permalink: /TeamBuildingAlbum
       return caption ? caption.textContent.trim() : (img.alt || "");
     }
 
+    function setLoading(status, message) {
+      isLoading = status;
+      lightbox.classList.toggle("is-loading", status);
+      prevBtn.disabled = status;
+      nextBtn.disabled = status;
+
+      if (message) {
+        loadingText.textContent = message;
+      }
+    }
+
+    function preloadImage(src) {
+      return new Promise(function (resolve, reject) {
+        if (!src) {
+          reject(new Error("Empty image source"));
+          return;
+        }
+
+        if (imageCache[src] === "loaded") {
+          resolve(src);
+          return;
+        }
+
+        const img = new Image();
+
+        img.onload = function () {
+          imageCache[src] = "loaded";
+          resolve(src);
+        };
+
+        img.onerror = function () {
+          imageCache[src] = "error";
+          reject(new Error("Image load failed: " + src));
+        };
+
+        img.src = src;
+      });
+    }
+
+    function warmupNeighborImages(index) {
+      const neighborIndexes = [
+        (index - 1 + images.length) % images.length,
+        (index + 1) % images.length
+      ];
+
+      neighborIndexes.forEach(function (neighborIndex) {
+        const img = images[neighborIndex];
+        if (!img) return;
+
+        const src = getImageSrc(img);
+        if (!src || imageCache[src]) return;
+
+        const preload = new Image();
+
+        preload.onload = function () {
+          imageCache[src] = "loaded";
+        };
+
+        preload.onerror = function () {
+          imageCache[src] = "error";
+        };
+
+        preload.src = src;
+      });
+    }
+
+    /*
+     * 核心修复：
+     * 先加载目标图片，加载成功后再同步更新大图与标题。
+     * 避免移动端弱网环境下出现“标题已切换，但图片仍停留在上一张”的图文错位。
+     */
     function updateLightbox(index) {
+      if (isLoading) return;
+
       const img = images[index];
       if (!img) return;
 
-      currentIndex = index;
-      lightboxImage.src = img.currentSrc || img.src;
-      lightboxImage.alt = img.alt || "Photo preview";
-      lightboxCaption.textContent = getCaption(img);
+      const src = getImageSrc(img);
+      const caption = getCaption(img);
+      const alt = img.alt || "Photo preview";
+      const token = ++requestToken;
+
+      targetIndex = index;
+      setLoading(true, "图片加载中，请稍候...");
+
+      preloadImage(src)
+        .then(function () {
+          if (token !== requestToken) return;
+
+          currentIndex = targetIndex;
+          lightboxImage.src = src;
+          lightboxImage.alt = alt;
+          lightboxCaption.textContent = caption;
+          lightboxCaption.classList.remove("photo-lightbox-error");
+          setLoading(false);
+          warmupNeighborImages(currentIndex);
+        })
+        .catch(function () {
+          if (token !== requestToken) return;
+
+          lightboxCaption.textContent = "图片加载失败，请检查网络状态或图片路径：" + src;
+          lightboxCaption.classList.add("photo-lightbox-error");
+          setLoading(false);
+        });
     }
 
     function openLightbox(index) {
-      updateLightbox(index);
       lightbox.classList.add("active");
       lightbox.setAttribute("aria-hidden", "false");
       document.body.classList.add("photo-lightbox-open");
       closeBtn.focus();
+      updateLightbox(index);
     }
 
     function closeLightbox() {
+      requestToken++;
+      setLoading(false);
+
       lightbox.classList.remove("active");
       lightbox.setAttribute("aria-hidden", "true");
       document.body.classList.remove("photo-lightbox-open");
@@ -451,16 +628,19 @@ permalink: /TeamBuildingAlbum
           lightboxImage.src = "";
           lightboxImage.alt = "";
           lightboxCaption.textContent = "";
+          lightboxCaption.classList.remove("photo-lightbox-error");
         }
       }, 180);
     }
 
     function showPrevImage() {
+      if (isLoading) return;
       const nextIndex = (currentIndex - 1 + images.length) % images.length;
       updateLightbox(nextIndex);
     }
 
     function showNextImage() {
+      if (isLoading) return;
       const nextIndex = (currentIndex + 1) % images.length;
       updateLightbox(nextIndex);
     }
