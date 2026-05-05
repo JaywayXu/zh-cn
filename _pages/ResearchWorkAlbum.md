@@ -4,8 +4,9 @@ title: "My Page"
 permalink: /ResearchWorkAlbum
 ---
 
-
 <style>
+  /* ================= Photo Wall Layout Start ================= */
+
   .photo-wall {
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -36,6 +37,7 @@ permalink: /ResearchWorkAlbum
     object-fit: cover;
     display: block;
     border-radius: 0;
+    cursor: zoom-in;
     transition: transform 0.35s ease;
   }
 
@@ -119,6 +121,180 @@ permalink: /ResearchWorkAlbum
       grid-template-columns: 1fr;
     }
   }
+
+  /* ================= Photo Wall Layout End ================= */
+
+
+  /* ================= Fullscreen Lightbox Start ================= */
+
+  .photo-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    background: rgba(0, 0, 0, 0.88);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+
+  .photo-lightbox.active {
+    display: flex;
+  }
+
+  .photo-lightbox-content {
+    position: relative;
+    max-width: 96vw;
+    max-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo-lightbox img {
+    max-width: 96vw;
+    max-height: 82vh;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55);
+    animation: lightboxZoomIn 0.28s ease;
+    cursor: default;
+  }
+
+  .photo-lightbox-caption {
+    max-width: 92vw;
+    margin-top: 14px;
+    padding: 0 12px;
+    color: #f5f5f5;
+    font-size: 15px;
+    line-height: 1.65;
+    text-align: center;
+  }
+
+  .photo-lightbox-close {
+    position: fixed;
+    top: 22px;
+    right: 28px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.16);
+    color: #fff;
+    font-size: 30px;
+    line-height: 42px;
+    cursor: pointer;
+    z-index: 100000;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .photo-lightbox-close:hover,
+  .photo-lightbox-close:focus {
+    background: rgba(255, 255, 255, 0.28);
+    transform: scale(1.06);
+    outline: none;
+  }
+
+  .photo-lightbox-nav {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 46px;
+    height: 46px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.16);
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100000;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .photo-lightbox-nav:hover,
+  .photo-lightbox-nav:focus {
+    background: rgba(255, 255, 255, 0.28);
+    transform: translateY(-50%) scale(1.06);
+    outline: none;
+  }
+
+  .photo-lightbox-prev {
+    left: 28px;
+  }
+
+  .photo-lightbox-next {
+    right: 28px;
+  }
+
+  @keyframes lightboxZoomIn {
+    from {
+      opacity: 0;
+      transform: scale(0.96);
+    }
+
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  body.photo-lightbox-open {
+    overflow: hidden;
+  }
+
+  @media (max-width: 768px) {
+    .photo-lightbox {
+      padding: 18px;
+    }
+
+    .photo-lightbox img {
+      max-width: 94vw;
+      max-height: 76vh;
+    }
+
+    .photo-lightbox-caption {
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .photo-lightbox-close {
+      top: 14px;
+      right: 14px;
+      width: 38px;
+      height: 38px;
+      font-size: 26px;
+      line-height: 38px;
+    }
+
+    .photo-lightbox-nav {
+      width: 38px;
+      height: 38px;
+      font-size: 24px;
+    }
+
+    .photo-lightbox-prev {
+      left: 12px;
+    }
+
+    .photo-lightbox-next {
+      right: 12px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .photo-item,
+    .photo-item img,
+    .photo-lightbox img,
+    .photo-lightbox-close,
+    .photo-lightbox-nav {
+      transition: none;
+      animation: none;
+    }
+  }
+
+  /* ================= Fullscreen Lightbox End ================= */
 </style>
 
 ## 课题组相册
@@ -274,3 +450,186 @@ permalink: /ResearchWorkAlbum
   </div>
 </div>
 
+<!-- ================= Photo Lightbox Preview Start ================= -->
+
+<div class="photo-lightbox" id="photoLightbox" aria-hidden="true" role="dialog" aria-modal="true">
+  <button class="photo-lightbox-close" id="photoLightboxClose" type="button" aria-label="Close image preview">
+    &times;
+  </button>
+
+  <button class="photo-lightbox-nav photo-lightbox-prev" id="photoLightboxPrev" type="button" aria-label="Previous image">
+    &#10094;
+  </button>
+
+  <div class="photo-lightbox-content">
+    <img id="photoLightboxImage" src="" alt="">
+    <div class="photo-lightbox-caption" id="photoLightboxCaption"></div>
+  </div>
+
+  <button class="photo-lightbox-nav photo-lightbox-next" id="photoLightboxNext" type="button" aria-label="Next image">
+    &#10095;
+  </button>
+</div>
+
+<!-- ================= Photo Lightbox Preview End ================= -->
+
+<script>
+(function () {
+  function initPhotoLightbox() {
+    const photoWall = document.querySelector(".photo-wall");
+    const lightbox = document.getElementById("photoLightbox");
+    const lightboxImage = document.getElementById("photoLightboxImage");
+    const lightboxCaption = document.getElementById("photoLightboxCaption");
+    const closeBtn = document.getElementById("photoLightboxClose");
+    const prevBtn = document.getElementById("photoLightboxPrev");
+    const nextBtn = document.getElementById("photoLightboxNext");
+
+    if (!photoWall || !lightbox || !lightboxImage || !lightboxCaption || !closeBtn || !prevBtn || !nextBtn) {
+      return;
+    }
+
+    const images = Array.from(photoWall.querySelectorAll(".photo-item img"));
+    if (images.length === 0) return;
+
+    let currentIndex = 0;
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    function getCaption(img) {
+      const item = img.closest(".photo-item");
+      const caption = item ? item.querySelector("p") : null;
+      return caption ? caption.textContent.trim() : (img.alt || "");
+    }
+
+    function updateLightbox(index) {
+      const img = images[index];
+      if (!img) return;
+
+      currentIndex = index;
+      lightboxImage.src = img.currentSrc || img.src;
+      lightboxImage.alt = img.alt || "Photo preview";
+      lightboxCaption.textContent = getCaption(img);
+    }
+
+    function openLightbox(index) {
+      updateLightbox(index);
+      lightbox.classList.add("active");
+      lightbox.setAttribute("aria-hidden", "false");
+      document.body.classList.add("photo-lightbox-open");
+
+      /*
+       * 打开后让关闭按钮获得焦点，便于键盘用户直接按 Enter 或 Esc 操作。
+       */
+      closeBtn.focus();
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove("active");
+      lightbox.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("photo-lightbox-open");
+
+      /*
+       * 延迟清空，避免关闭瞬间图片闪烁。
+       */
+      window.setTimeout(function () {
+        if (!lightbox.classList.contains("active")) {
+          lightboxImage.src = "";
+          lightboxImage.alt = "";
+          lightboxCaption.textContent = "";
+        }
+      }, 180);
+    }
+
+    function showPrevImage() {
+      const nextIndex = (currentIndex - 1 + images.length) % images.length;
+      updateLightbox(nextIndex);
+    }
+
+    function showNextImage() {
+      const nextIndex = (currentIndex + 1) % images.length;
+      updateLightbox(nextIndex);
+    }
+
+    images.forEach(function (img, index) {
+      img.addEventListener("click", function () {
+        openLightbox(index);
+      });
+    });
+
+    closeBtn.addEventListener("click", closeLightbox);
+
+    prevBtn.addEventListener("click", function (event) {
+      event.stopPropagation();
+      showPrevImage();
+    });
+
+    nextBtn.addEventListener("click", function (event) {
+      event.stopPropagation();
+      showNextImage();
+    });
+
+    /*
+     * 点击黑色背景关闭预览。
+     * 点击图片本身不关闭，避免用户误触。
+     */
+    lightbox.addEventListener("click", function (event) {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    /*
+     * 键盘控制：
+     * Esc：关闭
+     * ←：上一张
+     * →：下一张
+     */
+    document.addEventListener("keydown", function (event) {
+      if (!lightbox.classList.contains("active")) return;
+
+      if (event.key === "Escape") {
+        event.preventDefault();
+        closeLightbox();
+      }
+
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        showPrevImage();
+      }
+
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        showNextImage();
+      }
+    });
+
+    /*
+     * 移动端滑动切换：
+     * 左滑：下一张
+     * 右滑：上一张
+     */
+    lightbox.addEventListener("touchstart", function (event) {
+      touchStartX = event.changedTouches[0].screenX;
+    }, { passive: true });
+
+    lightbox.addEventListener("touchend", function (event) {
+      touchEndX = event.changedTouches[0].screenX;
+      const distance = touchEndX - touchStartX;
+
+      if (Math.abs(distance) < 50) return;
+
+      if (distance < 0) {
+        showNextImage();
+      } else {
+        showPrevImage();
+      }
+    }, { passive: true });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initPhotoLightbox, { once: true });
+  } else {
+    initPhotoLightbox();
+  }
+})();
+</script>
