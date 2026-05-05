@@ -322,7 +322,7 @@ permalink: /ResearchWorkAlbum
   </div>
   <div class="photo-item">
     <img src="images/album/GAIIS2026.jpg" alt="GAIIS2026">
-    <p>课题组许志伟老师担任GAIIS 2026国家会议程序主席，并在大会作报告</p>
+    <p>课题组许志伟老师担任GAIIS 2026国际会议程序主席，并在大会作报告</p>
   </div>
   <div class="photo-item">
     <img src="images/album/TY2025.jpg" alt="TY2025">
