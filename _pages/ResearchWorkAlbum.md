@@ -297,7 +297,7 @@ permalink: /ResearchWorkAlbum
   /* ================= Fullscreen Lightbox End ================= */
 </style>
 
-## 课题组相册
+## 科研相册
 
 <div class="photo-wall">
   <div class="photo-item">

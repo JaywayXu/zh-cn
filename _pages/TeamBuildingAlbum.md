@@ -297,66 +297,102 @@ permalink: /TeamBuildingAlbum
   /* ================= Fullscreen Lightbox End ================= */
 </style>
 
-## 课题组相册
+## 团建相册
 
 <div class="photo-wall">
   <div class="photo-item">
     <img src="images/TeamBuildingAlbum/2026LGA.jpg" alt="2026LGA">
     <p>2026年课题组团建</p>
   </div>
+
   <div class="photo-item">
     <img src="images/TeamBuildingAlbum/2025LGA.jpg" alt="2025LGA">
     <p>2025年课题组团建</p>
   </div>
+
   <div class="photo-item">
     <img src="images/TeamBuildingAlbum/2024LGA.jpg" alt="2024LGA">
     <p>2024年课题组团建</p>
   </div>
+
   <div class="photo-item">
     <img src="images/TeamBuildingAlbum/2024Graduation.jpg" alt="2024Graduation">
     <p>2024年课题组毕业留念</p>
   </div>
+
   <div class="photo-item">
     <img src="images/TeamBuildingAlbum/2024Reunion1.jpg" alt="2024Reunion1">
     <p>2024年1718级课题组师生聚会</p>
   </div>
+
   <div class="photo-item">
     <img src="images/TeamBuildingAlbum/2024Reunion2.jpg" alt="2024Reunion2">
     <p>2024年1718级课题组同学会</p>
   </div>
+
   <div class="photo-item">
     <img src="images/TeamBuildingAlbum/2023Graduation.jpg" alt="2023Graduation">
     <p>2023年课题组毕业留念</p>
   </div>
+
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2023LGA.jpg" alt="2023LGA.jpg">
+    <img src="images/TeamBuildingAlbum/2023LGA.jpg" alt="2023LGA">
     <p>2023年课题组团建</p>
   </div>
+
   <div class="photo-item">
-    <img src="images/TeamBuildingAlbum/2022LGA.jpg" alt="2022LGA.jpg">
+    <img src="images/TeamBuildingAlbum/2022LGA.jpg" alt="2022LGA">
     <p>2022年课题组团建</p>
   </div>
+
   <div class="photo-item">
     <img src="images/TeamBuildingAlbum/2022Graduation.jpg" alt="2022Graduation">
     <p>2022年课题组毕业留念</p>
   </div>
+
   <div class="photo-item">
     <img src="images/TeamBuildingAlbum/2021Graduation.jpg" alt="2021Graduation">
     <p>2021年课题组毕业留念</p>
   </div>
+
   <div class="photo-item">
     <img src="images/TeamBuildingAlbum/2021LGA.jpg" alt="2021LGA">
     <p>2021年课题组团建</p>
   </div>
+
   <div class="photo-item">
     <img src="images/TeamBuildingAlbum/2019Graduation.jpg" alt="2019Graduation">
     <p>2019年课题组毕业留念</p>
   </div>
+
   <div class="photo-item">
     <img src="images/TeamBuildingAlbum/2019LGA.jpg" alt="2019LGA">
     <p>2019年课题组团建</p>
   </div>
 </div>
+
+<!-- ================= Photo Lightbox Preview Start ================= -->
+
+<div class="photo-lightbox" id="photoLightbox" aria-hidden="true" role="dialog" aria-modal="true">
+  <button class="photo-lightbox-close" id="photoLightboxClose" type="button" aria-label="Close image preview">
+    &times;
+  </button>
+
+  <button class="photo-lightbox-nav photo-lightbox-prev" id="photoLightboxPrev" type="button" aria-label="Previous image">
+    &#10094;
+  </button>
+
+  <div class="photo-lightbox-content">
+    <img id="photoLightboxImage" src="" alt="">
+    <div class="photo-lightbox-caption" id="photoLightboxCaption"></div>
+  </div>
+
+  <button class="photo-lightbox-nav photo-lightbox-next" id="photoLightboxNext" type="button" aria-label="Next image">
+    &#10095;
+  </button>
+</div>
+
+<!-- ================= Photo Lightbox Preview End ================= -->
 
 <script>
 (function () {
@@ -370,6 +406,7 @@ permalink: /TeamBuildingAlbum
     const nextBtn = document.getElementById("photoLightboxNext");
 
     if (!photoWall || !lightbox || !lightboxImage || !lightboxCaption || !closeBtn || !prevBtn || !nextBtn) {
+      console.warn("Photo lightbox initialization failed: required DOM elements are missing.");
       return;
     }
 
@@ -401,10 +438,6 @@ permalink: /TeamBuildingAlbum
       lightbox.classList.add("active");
       lightbox.setAttribute("aria-hidden", "false");
       document.body.classList.add("photo-lightbox-open");
-
-      /*
-       * 打开后让关闭按钮获得焦点，便于键盘用户直接按 Enter 或 Esc 操作。
-       */
       closeBtn.focus();
     }
 
@@ -413,9 +446,6 @@ permalink: /TeamBuildingAlbum
       lightbox.setAttribute("aria-hidden", "true");
       document.body.classList.remove("photo-lightbox-open");
 
-      /*
-       * 延迟清空，避免关闭瞬间图片闪烁。
-       */
       window.setTimeout(function () {
         if (!lightbox.classList.contains("active")) {
           lightboxImage.src = "";
@@ -453,22 +483,12 @@ permalink: /TeamBuildingAlbum
       showNextImage();
     });
 
-    /*
-     * 点击黑色背景关闭预览。
-     * 点击图片本身不关闭，避免用户误触。
-     */
     lightbox.addEventListener("click", function (event) {
       if (event.target === lightbox) {
         closeLightbox();
       }
     });
 
-    /*
-     * 键盘控制：
-     * Esc：关闭
-     * ←：上一张
-     * →：下一张
-     */
     document.addEventListener("keydown", function (event) {
       if (!lightbox.classList.contains("active")) return;
 
@@ -488,11 +508,6 @@ permalink: /TeamBuildingAlbum
       }
     });
 
-    /*
-     * 移动端滑动切换：
-     * 左滑：下一张
-     * 右滑：上一张
-     */
     lightbox.addEventListener("touchstart", function (event) {
       touchStartX = event.changedTouches[0].screenX;
     }, { passive: true });
