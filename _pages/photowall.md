@@ -46,6 +46,10 @@ permalink: /photowall
 
 <div class="photo-wall">
   <div class="photo-item">
+    <img src="images/album/DOCS2025.jpg" alt="2025DOCS">
+    <p>课题组参加[2025年DOCS第七届复杂系统数据驱动优化国际会议-中国太原-太原理工大学],并在动态柔性车间调度赛道获得优秀奖</p>
+  </div>
+  <div class="photo-item">
     <img src="images/album/CEC2025.jpg" alt="2025CEC">
     <p>课题组参加[2025年IEEE 演化计算大会 CEC -中国杭州-西湖大学],课题组许志伟老师（右）和哈工大/南科大段琦琦博士合影留念</p>
   </div>
