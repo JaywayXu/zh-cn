@@ -46,6 +46,14 @@ permalink: /ResearchWorkAlbum
 
 <div class="photo-wall">
   <div class="photo-item">
+    <img src="images/album/ACAIT2025YCT.jpg" alt="ACAIT2025YCT">
+    <p>课题组参加[2025年亚洲人工智能技术大会ACAIT2025-中国鄂尔多斯-中国人工智能学会青工委],课题组许志伟老师（右）和郑州大学岳彩通教授合影留念</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/ACAIT25_PC.jpg" alt="ACAIT25_PC">
+    <p>课题组许志伟老师受聘作为ACAIT2025 PC</p>
+  </div>
+  <div class="photo-item">
     <img src="images/album/2024hubeikexie.jpg" alt="2024hubeikexie">
     <p>课题组论文获得2024年度湖北省科协优秀科技论文</p>
   </div>
@@ -56,10 +64,6 @@ permalink: /ResearchWorkAlbum
   <div class="photo-item">
     <img src="images/album/BICTA25.jpg" alt="BICTA25">
     <p>课题组协办2025年度BICTA，并与华中科技大学潘林强教授课题组合影留念[BICTA2025-中国武汉-华中科技大学/武汉科技大学/湖北省运筹学会]</p>
-  </div>
-  <div class="photo-item">
-    <img src="images/album/2025Gary.jpg" alt="2025Gary">
-    <p>IEEE Fellow Gary G. Yen 教授应邀访问本课题组并做专题报告</p>
   </div>
   <div class="photo-item">
     <img src="images/album/2025Gary.jpg" alt="2025Gary">
@@ -108,6 +112,10 @@ permalink: /ResearchWorkAlbum
   <div class="photo-item">
     <img src="images/album/CRAIC2024.jpg" alt="CRAIC2024">
     <p>课题组参加第二十六届中国人工机器人与人工智能大赛获得省二等奖</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/BICTA2024_PC.jpg" alt="BICTA2024_PC">
+    <p>课题组许志伟老师受聘作为BICTA2024 Program Chair</p>
   </div>
   <div class="photo-item">
     <img src="images/album/BICTA2024.jpg" alt="BICTA2024">
