@@ -46,6 +46,26 @@ permalink: /ResearchWorkAlbum
 
 <div class="photo-wall">
   <div class="photo-item">
+    <img src="images/album/2024hubeikexie.jpg" alt="2024hubeikexie">
+    <p>课题组论文获得2024年度湖北省科协优秀科技论文</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/2025BICTA_Gary.jpg" alt="2025BICTA_Gary">
+    <p>课题组许志伟老师协办2025年度BICTA，并与IEEE Fellow Gary G. Yen教授合影留念[BICTA2025-中国武汉-华中科技大学/武汉科技大学/湖北省运筹学会]</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/BICTA25.jpg" alt="BICTA25">
+    <p>课题组协办2025年度BICTA，并与华中科技大学潘林强教授课题组合影留念[BICTA2025-中国武汉-华中科技大学/武汉科技大学/湖北省运筹学会]</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/2025Gary.jpg" alt="2025Gary">
+    <p>IEEE Fellow Gary G. Yen 教授应邀访问本课题组并做专题报告</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/2025Gary.jpg" alt="2025Gary">
+    <p>IEEE Fellow Gary G. Yen 教授应邀访问本课题组并做专题报告</p>
+  </div>
+  <div class="photo-item">
     <img src="images/album/2025Jiujiang.jpg" alt="2025Jiujiang">
     <p>课题组许志伟老师访问九江学院计算机与大数据科学学院，并作多解多目标最短路径规划专题报告[中国九江，九江学院]，课题组许志伟老师（前排中）和九江学院计算机与大数据科学学院彭虎院长（前排右），九江学院董小刚老师（前排左）合影留念</p>
   </div>
@@ -91,7 +111,7 @@ permalink: /ResearchWorkAlbum
   </div>
   <div class="photo-item">
     <img src="images/album/BICTA2024.jpg" alt="BICTA2024">
-    <p>课题组参加[BICTA2024-中国苏州-华中科技大学/苏州大学]</p>
+    <p>课题组参加[BICTA2024-中国苏州-华中科技大学/苏州大学/湖北省运筹学会]</p>
   </div>
   <div class="photo-item">
     <img src="images/album/DOCS2024.jpg" alt="DOCS2024">
@@ -127,7 +147,7 @@ permalink: /ResearchWorkAlbum
   </div>
   <div class="photo-item">
     <img src="images/album/BICTA2019.jpg" alt="BICTA2019">
-    <p>课题组参加[BICTA2019-中国郑州-郑州大学]</p>
+    <p>课题组参加[BICTA2019-中国郑州-华中科技大学/郑州大学/湖北省运筹学会]</p>
   </div>
   <div class="photo-item">
     <img src="images/album/ECOLE2019.jpg" alt="ECOLE2019">
@@ -135,7 +155,7 @@ permalink: /ResearchWorkAlbum
   </div>
   <div class="photo-item">
     <img src="images/album/BICTA2018.jpg" alt="BICTA2018">
-    <p>课题组参加[BICTA2018-中国北京-北京邮电大学]</p>
+    <p>课题组参加[BICTA2018-中国北京-华中科技大学/北京邮电大学/湖北省运筹学会]</p>
   </div>
 </div>
 

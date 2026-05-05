@@ -47,7 +47,7 @@ permalink: /team.html
       <p class="name"><a href="http://jsjkx.wust.edu.cn/info/1021/33762.htm" target="_blank">张凯</a></p>
     </div>
     <div class="description-container">
-      <p class="description">张凯，教授，团队负责人，武汉科技大学研究生院院长、计算机科学与技术学院院长、智能信息处理与实时工业系统湖北省重点实验室主任。师从北京大学许进教授。博士生导师，湖北省优秀博士后，武汉市优秀青年科技工作者，IEEE TCYB 杰出审稿人，是 CCF/CAAI/IEEE/ACM 会员，IEEE SMC 技术委员会委员，中国电子学会生物计算与生物信息处理专业委员会常务理事。长期从事进化计算与多目标优化等领域研究，在 IEEE TEVC、IEEE TCYB、ACM TOTI、Information Sciences、计算机学报等有影响力的学术刊物上发表论文 30 余篇，授权国家发明专利 6 件。先后主持国家自然科学基金 3 项，湖北省自然科学基金 1 项，获得湖北省科学进步二等奖 1 项， 湖北省科技进步三等奖 2 项，湖北省教学成果二等奖 2 项，出版学术专著 2 部。</p>
+      <p class="description">张凯，教授，团队负责人，武汉科技大学研究生院院长、计算机科学与技术学院院长、智能信息处理与实时工业系统湖北省重点实验室主任，师从北京大学许进教授，2021年前往美国俄克拉荷马州立大学作为高级访问学者访学，导师IEEE Fellow Gary G. Yen教授。张凯教授是博士生导师，湖北省优秀博士后，武汉市优秀青年科技工作者，IEEE TCYB 杰出审稿人，CCF/CAAI/IEEE/ACM 会员，IEEE SMC 技术委员会委员，中国电子学会生物计算与生物信息处理专业委员会常务理事。长期从事进化计算与多目标优化等领域研究，在 IEEE TEVC、IEEE TCYB、ACM TOTI、Information Sciences、计算机学报等有影响力的学术刊物上发表论文 30 余篇，授权国家发明专利 6 件。先后主持国家自然科学基金 3 项，湖北省自然科学基金 1 项，获得湖北省科学进步二等奖 1 项， 湖北省科技进步三等奖 2 项，湖北省教学成果二等奖 2 项，出版学术专著 2 部。</p>
     </div>
   </div>
 
