@@ -46,6 +46,14 @@ permalink: /TeamBuildingAlbum
 
 <div class="photo-wall">
   <div class="photo-item">
+    <img src="images/TeamBuildingAlbum/2026LGA.jpg" alt="2026LGA">
+    <p>2026年课题组团建</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/TeamBuildingAlbum/2025LGA.jpg" alt="2025LGA">
+    <p>2025年课题组团建</p>
+  </div>
+  <div class="photo-item">
     <img src="images/TeamBuildingAlbum/2024LGA.jpg" alt="2024LGA">
     <p>2024年课题组团建</p>
   </div>

@@ -46,6 +46,42 @@ permalink: /ResearchWorkAlbum
 
 <div class="photo-wall">
   <div class="photo-item">
+    <img src="images/album/26LC.jpg" alt="26LC">
+    <p>课题组许志伟老师、余倩倩老师参加中国仿真学会资源规划仿真与决策专委会暨第一届学术年会。图为武汉科技大学管理学院彭琨琨老师、武汉科技大学机械工程学院张子凯老师、李梓响老师、武汉科技大学计算机科学与技术学院许志伟老师、余倩倩老师合影留念</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/26LC_YQQ.jpg" alt="26LC_YQQ">
+    <p>课题组余倩倩老师获聘中国仿真学会资源规划仿真与决策专业委员会委员</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/26LC_XZW.jpg" alt="26LC_XZW">
+    <p>课题组许志伟老师获聘中国仿真学会资源规划仿真与决策专业委员会委员</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/2026DJ.jpg" alt="2026DJ">
+    <p>课题组许志伟老师、余倩倩老师参加中国仿真学会智能优化与调度专委会党建活动</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/2026DJ.jpg" alt="2026DJ">
+    <p>课题组许志伟老师、余倩倩老师参加中国仿真学会智能优化与调度专委会党建活动</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/2026DQQ.jpg" alt="2026DQQ">
+    <p>江西财经大学段琦琦老师访问本课题组并做学术报告</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/GAIIS2026.jpg" alt="GAIIS2026">
+    <p>课题组许志伟老师担任GAIIS 2026国家会议程序主席，并在大会作报告</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/GAIIS2026.jpg" alt="GAIIS2026">
+    <p>课题组许志伟老师担任GAIIS 2026国家会议程序主席，并在大会作报告</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/TY2025.jpg" alt="TY2025">
+    <p>国家级青年人才田野教授应邀访问本课题组并做专题报告</p>
+  </div>
+  <div class="photo-item">
     <img src="images/album/ACAIT2025YCT.jpg" alt="ACAIT2025YCT">
     <p>课题组参加[2025年亚洲人工智能技术大会ACAIT2025-中国鄂尔多斯-中国人工智能学会青工委],课题组许志伟老师（右）和郑州大学岳彩通教授合影留念</p>
   </div>
