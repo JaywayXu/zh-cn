@@ -338,7 +338,7 @@ permalink: /ResearchWorkAlbum
   </div>
   <div class="photo-item">
     <img src="images/album/2024hubeikexie.jpg" alt="2024hubeikexie">
-    <p>课题组许志伟老师论文获得2024年度湖北省科协优秀科技论文</p>
+    <p>课题组论文获得2024年度湖北省科协优秀科技论文</p>
   </div>
   <div class="photo-item">
     <img src="images/album/2025BICTA_Gary.jpg" alt="2025BICTA_Gary">
