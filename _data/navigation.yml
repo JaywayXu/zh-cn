@@ -18,13 +18,16 @@ main:
   - title: "团队成员"
     url: "team"
 
-  - title: "课题组相册"
-    url: "photowall"
+  - title: "科研工作相册"
+    url: "ResearchWorkAlbum"
+
+  - title: "团队建设相册"
+    url: "TeamBuildingAlbum"
 
   - title: "团队荣誉"
     url: "Honor"
 
-  - title: "招生要求"
+  - title: "招生要求与联系方式"
     url: "enrollment"
 
   - title: "联系方式"

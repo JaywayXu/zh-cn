@@ -49,3 +49,12 @@ permalink: /enrollment
 - **良好的基础能力**：希望你具备较强的编程能力（如 Python, Java， C++等），扎实的数学基础，以及通过大学英语六级。`如果你对自己的基础能力有所顾虑，只要你有恒心和毅力，愿意付出努力和奋斗，我们同样欢迎你的加入`。
 
 期待与你一起在科研的道路上共同进步！！
+
+# 联系方式
+
+- 邮箱：xuzhiwei@wust.edu.cn
+- 微信公众号: 演化计算与人工智能
+<br>
+<img src="/zh-cn/images/Wechat.png" alt="微信公众号" style="width: 300px; height: auto;">
+<br>
+- CSDN: [武科大许志伟](https://xuzhiwei.blog.csdn.net/)
