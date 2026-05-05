@@ -30,9 +30,6 @@ main:
   - title: "招生要求与联系方式"
     url: "enrollment"
 
-  - title: "联系方式"
-    url: "contact"
-
 
 collections:
   pages:
