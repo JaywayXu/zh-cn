@@ -89,7 +89,7 @@ permalink: /team.html
       <p class="name"><a href="https://www.researchgate.net/profile/Qian-Bao-4/research" target="_blank">包芊</a></p>
     </div>
     <div class="description-container">
-      <p class="description">包芊，博士，武汉科技大学计算机科学与技术学院讲师，2025年博士毕业于中国地质大学（武汉），在2024年1月到2025年7月荣获国家留学基金委奖学金在De Montfort University IEEE Fellow 杨圣祥教授课题组进行联合培养。近年来一直致力于人工智能以及智能计算领域及其应用的研究。在IEEE Transactions on Evolutionary Computation、Swarm and Evolutionary Computation、Expert Systems with Applications以及Applied Soft Computing等期刊发表论文。
+      <p class="description">包芊，博士，武汉科技大学计算机科学与技术学院讲师，2025年博士毕业于中国地质大学（武汉），其导师是王茂才教授。在2024年1月到2025年7月荣获国家留学基金委奖学金在De Montfort University IEEE Fellow 杨圣祥教授课题组进行联合培养。近年来一直致力于人工智能以及智能计算领域及其应用的研究。在IEEE Transactions on Evolutionary Computation、Swarm and Evolutionary Computation、Expert Systems with Applications以及Applied Soft Computing等期刊发表论文。
       </p>
     </div>
   </div>
