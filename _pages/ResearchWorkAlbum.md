@@ -364,6 +364,14 @@ permalink: /ResearchWorkAlbum
 
 <div class="photo-wall">
   <div class="photo-item">
+    <img src="images/album/CWMC2026.jpg" alt="CWMC2026" loading="lazy" decoding="async">
+    <p>课题组许志伟老师参加[2026中国膜计算论坛-中国重庆-重庆城市科技学院]</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/album/ISOS2026.jpg" alt="ISOS2026" loading="lazy" decoding="async">
+    <p>课题组许志伟老师、余倩倩老师参加[2026中国仿真学会智能优化与调度会议-中国广州-广东工业大学]</p>
+  </div>
+  <div class="photo-item">
     <img src="images/album/26LC.jpg" alt="26LC" loading="lazy" decoding="async">
     <p>课题组许志伟老师、余倩倩老师参加中国仿真学会资源规划仿真与决策专委会暨第一届学术年会。图为武汉科技大学管理学院彭琨琨老师、武汉科技大学机械工程学院张子凯老师、李梓响老师、武汉科技大学计算机科学与技术学院许志伟老师、余倩倩老师合影留念</p>
   </div>
