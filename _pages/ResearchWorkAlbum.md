@@ -364,7 +364,7 @@ permalink: /ResearchWorkAlbum
 
 <div class="photo-wall">
   <div class="photo-item">
-    <img src="images/album/26XT.jpg" alt="2026年湘潭大学暑期学校" loading="lazy" decoding="async">
+    <img src="images/album/2026XT.jpg" alt="2026年湘潭大学暑期学校" loading="lazy" decoding="async">
     <p>课题组陈丕林、黄奕然同学参加[2026年湘潭大学智能优化研究生暑期学校]</p>
   </div>
   <div class="photo-item">
