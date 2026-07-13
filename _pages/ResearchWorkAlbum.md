@@ -364,6 +364,10 @@ permalink: /ResearchWorkAlbum
 
 <div class="photo-wall">
   <div class="photo-item">
+    <img src="images/album/26XT.jpg" alt="2026年湘潭大学暑期学校" loading="lazy" decoding="async">
+    <p>课题组陈丕林、黄奕然同学参加[2026年湘潭大学智能优化研究生暑期学校]</p>
+  </div>
+  <div class="photo-item">
     <img src="images/album/CWMC2026.jpg" alt="CWMC2026" loading="lazy" decoding="async">
     <p>课题组许志伟老师参加[2026中国膜计算论坛-中国重庆-重庆城市科技学院]</p>
   </div>
@@ -508,7 +512,7 @@ permalink: /ResearchWorkAlbum
     <p>2020年课题组许志伟老师协办第二届鄂鲁陕豫运筹学学术研讨会[中国武汉-华中科技大学-北京大学-武汉科技大学]</p>
   </div>
   <div class="photo-item">
-    <img src="images/album/BICTA2019.jpg" alt="BICTA2019" loading="lazy" decoding="async">
+    <img src="images/album/BICTA2019.png" alt="BICTA2019" loading="lazy" decoding="async">
     <p>课题组许志伟老师参加[BICTA2019-中国郑州-华中科技大学/郑州大学/湖北省运筹学会]</p>
   </div>
   <div class="photo-item">
