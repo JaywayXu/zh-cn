@@ -364,6 +364,10 @@ permalink: /ResearchWorkAlbum
 
 <div class="photo-wall">
   <div class="photo-item">
+    <img src="images/album/26UoB.jpg" alt="2026年伯明翰大学" loading="lazy" decoding="async">
+    <p>课题组许志伟老师前往英国伯明翰大学李密青教授课题组进行学术访问</p>
+  </div>
+  <div class="photo-item">
     <img src="images/album/2026XT.jpg" alt="2026年湘潭大学暑期学校" loading="lazy" decoding="async">
     <p>课题组陈丕林、黄奕然同学参加[2026年湘潭大学智能优化研究生暑期学校]</p>
   </div>
